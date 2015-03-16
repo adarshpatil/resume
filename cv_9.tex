@@ -1,0 +1,438 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Adarsh Patil CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xltxtra,xunicode,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Adarsh \textsc{Patil}}\bigskip\par} % Your name
+
+\section{Personal Details}
+
+\begin{tabular}{rl}
+\textsc{Date of Birth:} & 17 November 1990 \\
+\textsc{Address / Contact:} & (On Request) \\
+\textsc{Portfolio / Blog:} & \href{http://adarshpatil.in/timewarp}{http://adarshpatil.in}\\
+\textsc{email:} & \href{mailto:me@adarshpatil.in}{me at adarshpatil dot in}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{rl}	
+\emph{Current} & \textbf{Indian Institute Of Science}, Bangalore, India\\
+& \textsc{M.Sc Engineering} | Computer Science and Automation Department\\
+& Research: \small\emph{High Performance Computing \& Computer Architecture} | Advisor: R. \textsc{Govindarajan}\\
+&\normalsize \textsc{Gpa}: 6.33/8.0\hyperlink{iisc}{\hfill | \footnotesize List of Courses}\\
+&\\
+
+%------------------------------------------------
+
+\textsc{May} 2012 & \textbf{M S Ramaiah Institute of Technology}, Bangalore, India\\
+& \textsc{B.E.} | Computer Science and Engineering \\
+&\normalsize \textsc{Gpa}: 9.40/10.0 \hyperlink{msrit}{\hfill| \footnotesize List of Courses}\\
+&\\
+
+%------------------------------------------------
+
+\textsc{June} 2008 & \textbf{Sindhi High School}, Hebbal, Bangalore, India\\
+& \textsc{CBSE 12}\textsuperscript{th} \\
+&\normalsize \textsc{Percentage}: 87.56 (PCM: 93) \hyperlink{hs}{\hfill| \footnotesize List of Courses}\\
+&\\
+
+%------------------------------------------------
+
+\textsc{July} 2006 & \textbf{Presidency School}, R T Nagar, Bangalore, India\\
+& \textsc{ICSE 10}\textsuperscript{th} \\
+&\normalsize \textsc{Percentage}: 86.5 \\
+&\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{10cm}}
+\textsc{June 2012 to July 2014} & Technology Analyst at \textsc{Goldman Sachs}, Bangalore, India \\
+{(2 years 1 month)}& \emph{Core Platform Engineering}\\ 
+& \footnotesize{ Member of Operating Systems Engineering team under Core Platform \hbox{Engineering} primarily focused on Virtualization and Linux platforms } \\
+& \footnotesize{ Was part of a wide variety of engineering projects ranging from Full blown \hbox{Virtualization} (\textit{VMware ESX, KVM}), Nested Virtualization to Light weight Linux Containers (\textit{LXC, Docker}) } \\
+& \footnotesize{ Security Enhanced Linux, low latency Linux to think clients for desktops }\\
+& \footnotesize{ Performance Engineering and Architect of Goldman Sachs Private Cloud for the virtualized footprint. }\\
+& \\
+%------------------------------------------------
+
+\textsc{January 2012 to May 2012} & Intern at \textsc{Ignis Technology Solutions}, Bangalore, India \\
+{(5 months)}& \footnotesize{ Developed an Android application }\\
+& \footnotesize{ For a Pharmaceutical ecommerce and Supply Chain Management - \textit{Angooor} }\\
+& \\
+
+%------------------------------------------------
+
+\textsc{June 2011 to August 2011} & Summer Analyst at \textsc{Goldman Sachs}, Bangalore, India \\
+{(3 months)}& \footnotesize{ Worked on Process Automation in Technology Division }\\
+& \footnotesize{ Received Pre-Placement offer for ``\emph{disctinctive}`` Performance }\\
+& \\
+
+%------------------------------------------------
+
+\textsc{June 2010 to September 2010} & Intern at \textsc{Einstasoft}, Bangalore, India \scriptsize{(renamed GAViSTA Tech)}\\
+{(4 months)} & \footnotesize{ Worked on LegalCrystal.com - Indian Law Search Engine }\\
+& \footnotesize{ Search Optimization and User Interface for systematic results display }\\
+
+
+\end{tabular}
+
+\newpage
+%----------------------------------------------------------------------------------------
+%	SOFTWARE and Hardware proficiency
+%----------------------------------------------------------------------------------------
+
+\section{Software \& Hardware Proficiency}
+\begin{tabular}{rl}
+\textsc{Software} &  
+\tabitem \textit{Programming Languages:}\\
+& ~~~~Python, Linux Shell Scripting , C / C++, Java, SQL, Perl, Go PHP, Javascript \\
+& \tabitem \textit{Development Platforms:} \\
+& ~~~~VI / VIM, Eclipse, Visual Studio, Code::Blocks, Net Beans, DevCpp, gedit,\\
+& ~~~~TexMaker, Aptana Studio, Geany\\	
+& \tabitem \textit{Web Technology:} \\
+& ~~~~HTML, CSS, JQuery, Javascript, PHP, JSP, Curl, XML, REST, WSDL, AngularJS,\\
+& ~~~~Perl / Python CGI\\
+& \tabitem \textit{Operating Systems:} VMware ESX, Linux(RHEL, Fedora, Ubuntu), Windows \\
+& \tabitem \textit{Mobile Platforms:} Android \\
+& \tabitem \textit{Libraries:} Open CV, OpenGL,  \\
+& \tabitem \textit{Tools:} \LaTeX\ , git, svn, hg, gdb\\
+& \tabitem \textit{Automation Tool:} HP Operations Orchestrator, iConclude \\
+& \tabitem \textit{Database:} MySQL, Oracle, DB2 \\
+& \tabitem \textit{Browser Based Applications:} Chrome apps and XULRunner \\
+
+&\\
+
+\textsc{Hardware}  & \tabitem Micro-Architecture of Modern x86 processors\\
+& ~~~~(Nehalem / Westmere, SandyBridge / IvyBridge, Haswell) \\ 
+& \tabitem 8051 based Microcontroller Programming. \\
+& \tabitem x86 based Microprocessor Interfacing \\
+&\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	POSITIONS HELD
+%----------------------------------------------------------------------------------------
+
+\section{Positions Held}
+
+\begin{tabular}{lr}
+\tabitem Student System Admin at CSA Department, IISc & Aug 2014 - present \\
+&\\
+\tabitem Technology Analyst - 01 at Goldman Sachs & Nov 2013 - Jul 2014\\
+&\\
+\tabitem New Analyst Technology Associate at Goldman Sachs & Jun 2012 - Nov 2013\\
+&\\
+\tabitem Teaching Associate for the CUDA Teaching Centre,  & Jan 2012 - May 2012\\
+~~~~sponsored by NVIDIA, at the Department of CSE, MSRIT &  \\
+&\\
+\tabitem Chairman of VRGLINUG (GNU/Linux users group at MSRIT) & 2011-12 \\
+&\\
+\tabitem Secretary and member of executive committee of IEEE-MSRIT & 2011-12 \\
+&\\
+\tabitem Been an influential Member of several committees & 2011-12 \\
+~~~~RoboMSR, Android AppDev Group, CodeMSRIT, & \\
+~~~~Assoc of Computer Engineers (ACE) & \\
+&\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS 
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\begin{tabular}{rl}
+\textsc{Projects at} & \textbf{Plan IKEBANA: ESS Dimensions Reduction for Plan Bouquet} \\
+\textsc{INDIAN INSTITUTE} & ~~~Ranking Error Prone Selectivity Dimensions by impact on Plan\\
+\textsc{OF SCIENCE}& ~~~Bouquet style query execution i.e. execution of query by discovering \\
+& ~~~selectivity at run time by executing series of cost limited plans.\\
+& ~~~\href{http://adar.sh/PlanIkebana}{http://adar.sh/PlanIkebana}\\
+& \\
+& \textbf{A Study of Branch Prediction in Android} \\
+& ~~~We focus on Hardware Branch Prediction and aim to understand\\
+& ~~~the interplay for User and Kernel mode branches in Android\\
+& ~~~in light of features like minimize \& background app refresh\\
+& ~~~Simulated ARM CortexA8 chipset with ARMv7-A architecture profile\\
+& ~~~\& ran Moby Mobile Benchmark suite on customized gem5 simulator\\
+& ~~~\href{http://adar.sh/BranchPredAndroid}{ http://adar.sh/BranchPredAndroid} \\
+&\\
+& \textbf{VarMutate:Dynamic Scoping for C Language in clang}\\
+& ~~~Implemented Dynamic Scoping for C in the clang/LLVM compiler\\
+& ~~~via a single pass algorithm that implements shallow binding.\\
+& ~~~It scans the AST generated and does a source-to-source transform\\
+& ~~~to convert a given program to dynamic scoped program.\\
+& ~~~\href{http://adar.sh/VarMutate}{http://adar.sh/VarMutate} \\
+& \\
+\textsc{Projects at}  &  \textbf{Architect, design, implement and sustain solutions} of various  \\
+\textsc{GOLDMAN SACHS} &  Virtualization \& Linux technologies spanning Compute, Storage \\
+& and Networking. \\
+&\\
+& \textbf{Hardware and OS Performance Benchmarking \& Analysis}\\
+& \tabitem Authored an Automated benchmarking framework to run \\
+& ~~~~and report performance by running various test suite on \\
+& ~~~~VMs and Baremetals in bash\\
+& \tabitem Test Suites include – SpecJBB, kmake, blacksholes, Dhrystone, \\
+& ~~~~Whetstone, Hackbench, Disk tests, Network uperf, lat proc \\
+& \tabitem Performance analysis \& tuning for specialized internal apps \\
+& ~~~( e.g. Low Latency, high I/O, memory, network intensive )\\
+&\\
+& \textbf{Linux Containers} \\
+& \tabitem Architecting and implementing Image based and Host based App \\
+& ~~~~Containers for Goldman Sachs Cloud within RHEL 7 \\
+& \tabitem Possess a good understanding of underlying technology \\
+& ~~~~Namespaces, Cgroups, SELinux, Libvirt API for Management, \\
+& ~~~~Network configuration using TUN/TAP Dev\\
+&\\
+& \textbf{Thin client on desktop for VDI solution} \\
+& \tabitem Engineered a Linux based solution – Minimized and locked down \\
+& \tabitem Authored several PyGTK and X11 based applications for remote \\
+& ~~~~management, diagnostics, troubleshooting and NEA \\
+& \tabitem Network booted, kickstart and preseed based unsupervised install \\
+& ~~~~Next generation to include stateless RAM-based network boot on\\ & ~~~~ARM based hardware including Raspberry Pi. \\
+& \\
+& \textbf{Nested Virtualization} \\
+& \tabitem Engineered NV as a security solution using Bromium vSentry \\
+& \\
+& Well versed in \textbf{PXE / TFTP boot} infrastructure. \\
+& \\
+& Regular \textbf{Vendor Interaction and liaising} – Intel, VMware, Redhat \\
+&\\
+\end{tabular}
+\begin{tabular}{rl}
+\textsc{Projects at} & \textit{“Spoken Language Identification using Machine Learning"}\\ 
+\textsc{MSRIT} & under Prof. K.G.Srinivasa as final year project\\
+& \href{http://adar.sh/spokenlang}{http://adar.sh/spokenlang}\\
+& \\
+& \textit{“Intelligent systems for Network Intrusion Detection System"} \\ 
+& facilitated and financed by DRDO under Prof. K.G.Srinivasa\\
+& Paper Published at ICECIT 2012 titled \\
+& "SNIDS: An Intelligent \& Multiclass Support Vector Machines Based NIDS" \\
+& \href{http://adar.sh/S-NIDS}{http://adar.sh/S-NIDS} \\
+& \\
+& Mini project on “Line Birds” – a computer graphics project \\
+& implemented using OpenGL library under Prof D S Jayalakshmi \\
+& \href{http://adar.sh/linebird}{http://adar.sh/linebird}\\
+& \\
+& Mini project on “Implementation of parallel algorithm for Max Flow \\
+& Algorithm using Ford-Fulkerson method” on Advanced Comp Arch \\
+& under Asst Prof. Parkavi \\
+& \\
+& Project on “e-Blood Bank” a Database Systems Application Project \\
+& under Asst. Prof. Arul Kumar \\
+& \\
+& Lead developer of the team that created “ANDROMEDA - MSRIT Linux” \\
+& \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+% Achievements
+%----------------------------------------------------------------------------------------
+
+\section{Achievements}
+~\\
+\tabitem Completed with Certificate of distinction several MooC Data Science Courses from Johns Hopkins University on Coursera\\
+\\
+\tabitem \textit{"Best outgoing achiever of 2012 batch”} from the Dept. of Computer Science \& Engg. at \mbox{M S Ramaiah Instiute of Technology} \\
+\\
+\tabitem First Place at the National Level Project Competition \& Exhibition held at M S Ramaiah Institute of Technology for the project “Spoken Language Identification using Machine Learning”\\
+\\
+\tabitem Second Place at “Random Hacks of Kindness \#2” hackathon (2010)\\
+\\
+\tabitem IBM Certified DB2 9 Database and Application Fundamentals (2011)\\
+\\
+\tabitem IBM Certified Rational Functional Tester(RFT) for Java (2011)\\
+\\
+\tabitem Certificate course in “Java Programming” from NIIT-Bangalore by Sun Microsystems (2009)\\
+\\
+\tabitem Completed course on “Micro-Electro Mechanical Systems (MEMS)” from Electrical and Electronics Dept. of MSRIT \\
+\\
+\tabitem Seminal work titled “Microneedles for medical advancement” as a part of the MEMS course which was recognized by the Staff Council of IEEE.\\
+\\
+\tabitem Completed course on “Digital Signal Processing” from ECE Dept. of MSRIT \\
+\\
+\tabitem Completed course on “Supply Chain Management” from Mechanical Dept. of MSRIT
+\\
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Co and extra curricular activities
+%----------------------------------------------------------------------------------------
+
+\section{Co and extra curricular activities}
+~\\
+\tabitem Web Design, Development and treasurer for Samanway 2014 - Career fair at IISc \\
+\\ 
+\tabitem Member of the Environment committee at Goldman Sachs, regularly conducting awareness drives and camps \\
+\\
+\tabitem One of few Indians amongst participants from all around the world on a Scholarship Delegation to attend TEDxSummit in Doha, Qatar representing TEDxMSRIT \\
+\\
+\tabitem Active TEDx licensee, TED Translator, 1600 TEDCred holder and organizer of TEDxMSRIT \\
+\\
+\tabitem Actively involved in various communities and organizing of “Pycon India 2010” and “Random Hacks of Kindness \#4” held in MSRIT\\
+\\
+\tabitem Lead organiser of “Ignite” (annual Tech Fest at MSRIT) and “Aavishkaar” (annual inter-collegiate IEEE-MSRIT tech fest\\
+\\
+\tabitem Active Volunteer for Association of Computer Engineers (ACE), MSRIT and have been instrumental in organizing events (2008-2011)\\
+\\
+\tabitem Delegated at various conferences and Workshops like \\
+“Open Hack India 2010/2011”, “PYCON India 2010”, “FOSSEE Science and Engineering”, \\ 
+“Microsoft Dream Spark India”, “Wikipedia monthly Meet-up Bangalore”, \\
+“Mobile Camp-Demos, Tech, Hands-on”\\
+\\
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Miscellaneous
+%----------------------------------------------------------------------------------------
+
+\section{Miscellaneous}
+\begin{tabular}{rl}
+\textsc{Strengths} & \tabitem Adaptability, Quick learner, Hardworking and Dedication\\
+& \tabitem Effective communicator and good leadership skills \\
+& \tabitem Always updated with latest technology and trends of market.\\
+& \tabitem Analytical and Mathematical Problem Solving, Designing Algorithms \\
+& ~~~~and practical Solutions to given problems \\
+& \\
+\textsc{Hobbies} & \tabitem Reading Major Tech News sites, dailies and magazines [LFY, Digit, Chip, etc.] \\
+& \tabitem Swimming \\
+& \tabitem Programming, Solving challenging problems either conceptually or programtically \\
+& \\
+\textsc{Other Links} & \href{https://github.com/adarshpatil}{github.com/adarshpatil} \\
+& \href{http://in.linkedin.com/in/adarshpatil}{in.linkedin.com/in/adarshpatil}\\
+&\\
+\textsc{References} & \textbf{Academic References} \\
+& Prof. K G Srivinvas, Mentor / Guide  \\
+& Professor and Head of Dept. CSE, MSRIT \\
+& kgsrinivas@msrit.edu \\
+&\\
+& Prof. R Govindarajan, Guide \\
+& Professor and Chairman SERC, IISc\\
+& govind@serc.iisc.ernet.in \\
+&\\
+& \textbf{Industry References} \\
+& On Request \\
+\end{tabular}
+%----------------------------------------------------------------------------------------
+
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	GRADE TABLES
+%----------------------------------------------------------------------------------------
+
+\par{\centering\Large \hypertarget{iisc}{Master of Science in  Engineering (IISc, Bangalore)}\par}\large{\centering Grades\par}\normalsize
+
+\begin{center}
+\begin{tabular}{lcc}
+\multicolumn{1}{c}{\textsc{Course}} & \textsc{Grade}&\textsc{Credit}\\ \hline
+Database Management Systems & A & 4\\
+Computer Architecture & A & 4\\
+Design and Analysis of Algorithms & C & 4\\
+Compiler Design & & 4\\
+Final Thesis & & \\	
+& Total & 16\\\cline{2-3}
+&\textsc{Gpa}&\textbf{6.33}
+\end{tabular}
+\end{center}
+\bigskip
+\hrule
+\bigskip
+
+%------------------------------------------------
+
+\bigskip
+
+\par{\centering\Large \hypertarget{msrit}{Bachelors in Engineering (MSRIT, Bangalore) }\par}
+\large{\centering Principal Courses\par}
+\normalsize
+\begin{center}
+\begin{tabular}{ll}
+\tabitem Engineering Mathematics & \tabitem Discrete Mathematics \\
+\tabitem Data Structures & \tabitem Design \& Analysis of Algorithms \\
+\tabitem Operating Systems & \tabitem Computer Organization \\
+\tabitem Engineering Design & \tabitem Computer Graphics and Visualization \\
+\tabitem Web Programming & \tabitem Advanced Computer Architecture \\
+\tabitem Unix System Programming & \tabitem Computer Networks \\
+\tabitem Compiler Design & \tabitem Software Engineering \\
+&\\
+\multicolumn{2}{c}{\large{\centering Electives\par}} \\ 
+&\\
+\tabitem Artificial Intelligence  & \tabitem Supply Chain Management  \\
+\tabitem Digital Signal Processing & \tabitem Micro-Electro Mechanical Systems\\
+\end{tabular}
+\end{center}
+\bigskip
+\hrule
+\bigskip
+%------------------------------------------------
+
+\bigskip
+
+\par{\centering\Large \hypertarget{hs}{Higher Secondary (Sindhi High School, CBSE) }\par}
+\begin{center}
+\large{Primary Courses\par}
+\normalsize
+Physics, Chemistry, Mathematics, Computer Science \\
+~\\
+\large{Languages\par}
+\normalsize
+Hindi, English \\
+\end{center}
+\bigskip
+\hrule
+\bigskip
+%----------------------------------------------------------------------------------------
+\vfill
+\centerline{Created with Xe\LaTeX\ }
+\end{document}

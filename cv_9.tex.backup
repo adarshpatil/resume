@@ -1,0 +1,236 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Adarsh Patil CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Adarsh \textsc{Patil}}\bigskip\par} % Your name
+
+\section{Personal Details}
+
+\begin{tabular}{rl}
+\textsc{Date of Birth:} & 17 November 1990 \\
+\textsc{Address / Contact:} & (On Request) \\
+\textsc{Portfolio / Blog:} & \href{http://adarshpatil.in/timewarp}{http://adarshpatil.in}\\
+\textsc{email:} & \href{mailto:me@adarshpatil.in}{me at adarshpatil dot in}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{rl}	
+\emph{Current} & \textbf{Indian Institute Of Science}, Bangalore, India\\
+& \textsc{M.Sc Engineering} | Computer Science and Automation Department\\
+& Research: \small\emph{High Performance Computing and Computer Architecture} | Advisor: R. \textsc{Govindarajan} (SERC)\\
+&\normalsize \textsc{Gpa}: In-Progress\hyperlink{grds}{\hfill | \footnotesize Detailed List of Exams}\\
+&\\
+
+%------------------------------------------------
+
+\textsc{May} 2012 & \textbf{M S Ramaiah Institute of Technology}, Bangalore, India\\
+& \textsc{B.E.} | Computer Science and Engineering \\
+&\normalsize \textsc{Gpa}: 9.40/10.0 \hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
+&\\
+
+%------------------------------------------------
+
+\textsc{June} 2008 & \textbf{Sindhi High School}, Hebbal, Bangalore, India\\
+& \textsc{CBSE 12}\textsuperscript{th} \\
+&\normalsize \textsc{Percentage}: 87.56 (PCM: 93) \hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
+&\\
+
+%------------------------------------------------
+
+\textsc{July} 2006 & \textbf{Presidency School}, R T Nagar, Bangalore, India\\
+& \textsc{ICSE 10}\textsuperscript{th} \\
+&\normalsize \textsc{Percentage}: 86.5 \hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
+&\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{10cm}}
+\textsc{June 2012 to July 2014} & Technology Analyst at \textsc{Goldman Sachs}, Bangalore, India \\
+{(2 years 1 month)}& \emph{Core Platform Engineering}\\ 
+& \footnotesize{ Member of Operating Systems Engineering team under Core Platform Engineering primarily focused on Virtualization and Linux platforms } \\
+& \footnotesize{ Was part of a wide variety of engineering projects ranging from Full blown Virtualization (\textit{VMware ESX, KVM}), Nested Virtualization to Light weight Linux Containers (\textit{LXC, Docker}) } \\
+& \footnotesize{ Security Enhanced Linux, low latency Linux to think clients for desktops }\\
+& \footnotesize{ Performance Engineering and Architect of Goldman Sachs Private Cloud for the virtualized footprint. }\\
+{} & {}\\
+%------------------------------------------------
+
+\textsc{January 2012 to May 2012} & Intern at \textsc{Ignis Technology Solutions}, Bangalore, India \\
+{(5 months)}& \footnotesize{ Developed an Android application }\\
+& \footnotesize{ For a Pharmaceutical ecommerce and Supply Chain Management - \textit{Angooor} }\\
+
+
+%------------------------------------------------
+
+\textsc{June 2011 to August 2011} & Summer Analyst at \textsc{Goldman Sachs}, Bangalore, India \\
+{(3 months)}& \footnotesize{ Worked on Process Automation in Technology Division }\\
+& \footnotesize{ Received Pre-Placement offer for ``\emph{disctinctive}`` Performance }\\
+
+
+%------------------------------------------------
+
+\textsc{June 2010 to September 2010} & Intern at \textsc{Einstasoft}, Bangalore, India \scriptsize{(renamed GAViSTA Tech)}\\
+{(4 months)} & \footnotesize{ Worked on LegalCrystal.com - Indian Law Search Engine }\\
+& \footnotesize{ Search Optimization and User Interface for systematic results display }\\
+
+
+\end{tabular}
+
+\newpage
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS AND ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+
+\section{Software \& Hardware Proficiency}
+
+\begin{tabular}{rl}
+\textsc{Software} & kahs\\
+
+\textsc{Hardware}  & {\textsc{Gmat}\textregistered}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}: 730 (\textsc{q:50;v:39}) 96\textsuperscript{th} percentile; \textsc{awa}: 6.0/6.0 (89\textsuperscript{th} percentile)
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\begin{tabular}{rl}
+\textsc{English:} & Fluent\\
+
+\textsc{Italian:} & Mothertongue\\
+
+\textsc{French:} & Basic Knowledge\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+\begin{tabular}{rl}
+Basic Knowledge: & \textsc{php}, my\textsc{sql}, \textsc{html}, Access, \textsc{Linux}, ubuntu, {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+
+Intermediate Knowledge: & \textsc{vba}, Excel, Word, PowerPoint\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests and Activities}
+
+Technology, Open-Source, Programming\\
+Paradoxes in Decision Making, Psychoanalysis, Behavioural Finance\\
+Football, Travelling
+
+%----------------------------------------------------------------------------------------
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	GRADE TABLES
+%----------------------------------------------------------------------------------------
+
+\par{\centering\Large \hypertarget{grds}{Master of Science in \textsc{Finance}}\par}\large{\centering Grades\par}\normalsize
+
+\begin{center}
+\begin{tabular}{lcc}
+\multicolumn{1}{c}{\textsc{Exam}} & \textsc{Grade}&\textsc{Credit Hrs}\\ \hline
+Corporate Finance (Valuation) & 25 & 6\\
+Financial Statement Analysis & 28 & 6\\
+Statistics & 27 & 6\\
+Theory of Finance & 26 & 6\\
+Quantitative Methods for Finance & 30 & 6\\
+Econometrics & 24 & 6\\
+Derivatives & 31 & 6\\
+Management of Financial and Insurance Companies & 30 & 6\\
+Business Law & 31 & 6\\
+Investment Banking	& 28 & 6\\ \\		
+Behavioral Models for Economics and Finance	 & 29 & 6\\
+Numerical Methods for Finance & 29 & 6\\
+Advanced Derivatives & 30 & 6\\
+Fixed Income (Advanced Methods) & 30 & 6\\ \\
+English Language & 30 &	4\\
+French Language & 31 &	4\\	
+Internship & & 8\\		
+Final Thesis & & 20\\	
+& Total & 120\\\cline{2-3}
+&\textsc{Gpa}&\textbf{8.0}
+\end{tabular}
+\end{center}
+\bigskip
+\hrule
+\bigskip
+
+%------------------------------------------------
+
+\bigskip
+
+\par{\centering\Large \hypertarget{grds_usc}{Exchange Program at \textsc{usc}, Los Angeles}\par}\large{\centering Grades\par}\normalsize
+
+\begin{center}
+\begin{tabular}{lcc}
+\multicolumn{1}{c}{\textsc{Exam}} & \textsc{Grade} & \textsc{Grade Points}\\ 
+\hline
+Corporate Financial Strategy & A & 4\\
+Derivatives & A & 4\\
+Money, Credit, and Banking & A & 4\\
+Business Strategy & A- & 3.5\\
+& &\\\cline{2-3}
+& \textsc{Gpa} & \textbf{3.875}
+\end{tabular}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+\vfill
+\centerline{Created with Xe\LaTeX\ }
+\end{document}
