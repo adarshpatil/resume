@@ -212,6 +212,26 @@
 & ~~~to convert a given program to dynamic scoped program.\\
 & ~~~\href{http://adar.sh/VarMutate}{http://adar.sh/VarMutate} \\
 & \\
+& \textbf{Compiler Optimization Transforms 1: Harris Corner Detection}\\
+& ~~~This work optimize and tune the Harris corner detection algorithm for \\
+& ~~~performance using locality, vectorization and multithreading transforms. \\
+& ~~~We obtain a speedup for 14.6X over OpenCV library implementation and \\
+& ~~~11.3X over unparallelized reference implementation.\\
+& ~~~This work also studies performance of GCC 4.9 vs Intel ICC 15.0\\
+& ~~~for vectorization and code generation optimization performed by them.\\
+& ~~~\href{http://adar.sh/compiler-optimize}{http://adar.sh/compiler-optimize}\\
+& \\
+& \textbf{Compiler Optimization Transforms 2: Caffe Neural Networks}\\
+& ~~~The work focuses on 2 applications in Caffe - MNIST and CIFAR10. \\
+& ~~~By using loop parallelization transforms \& tiling performance of these \\
+& ~~~Neural Network applications is improved for multicore machines. \\
+& ~~~We obtain speedup of between 1.8X-3X over best baseline implementation.\\
+& ~~~This work also compares thread scaling characteristics and layer wise \\
+& ~~~distribution timings on AMD and Intel multicores vs GPUs.\\
+& ~~~\href{http://adar.sh/caffe-compiler-optimize}{http://adar.sh/caffe-compiler-optimize}\\
+& \\
+&\\
+&\\
 \textsc{Projects at}  &  \textbf{Architect, design, implement and sustain solutions} of various  \\
 \textsc{GOLDMAN SACHS} &  Virtualization \& Linux technologies spanning Compute, Storage \\
 & and Networking. \\
@@ -225,12 +245,16 @@
 & \tabitem Performance analysis \& tuning for specialized internal apps \\
 & ~~~( e.g. Low Latency, high I/O, memory, network intensive )\\
 &\\
-& \textbf{Linux Containers} \\
-& \tabitem Architecting and implementing Image based and Host based App \\
-& ~~~~Containers for Goldman Sachs Cloud within RHEL 7 \\
+
+\end{tabular}
+\begin{tabular}{rl}
+\textsc{Projects at} & \textbf{Linux Containers} \\
+\textsc{GOLDMAN SACHS} & \tabitem Architecting and implementing Image based and Host based App \\
+continued & ~~~~Containers for Goldman Sachs Cloud within RHEL 7 \\
 & \tabitem Possess a good understanding of underlying technology \\
 & ~~~~Namespaces, Cgroups, SELinux, Libvirt API for Management, \\
 & ~~~~Network configuration using TUN/TAP Dev\\
+&\\
 &\\
 & \textbf{Thin client on desktop for VDI solution} \\
 & \tabitem Engineered a Linux based solution – Minimized and locked down \\
@@ -239,12 +263,15 @@
 & \tabitem Network booted, kickstart and preseed based unsupervised install \\
 & ~~~~Next generation to include stateless RAM-based network boot on\\ & ~~~~ARM based hardware including Raspberry Pi. \\
 & \\
+&\\
 & \textbf{Nested Virtualization} \\
 & \tabitem Engineered NV as a security solution using Bromium vSentry \\
 & \\
 & Well versed in \textbf{PXE / TFTP boot} infrastructure. \\
 & \\
 & Regular \textbf{Vendor Interaction and liaising} – Intel, VMware, Redhat \\
+&\\
+&\\
 &\\
 \end{tabular}
 \begin{tabular}{rl}
@@ -271,6 +298,8 @@
 & \\
 & Lead developer of the team that created “ANDROMEDA - MSRIT Linux” \\
 & \\
+& \\
+& \\
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
@@ -278,12 +307,12 @@
 %----------------------------------------------------------------------------------------
 
 \section{Achievements}
-~\\
+%~\\
 \tabitem Completed with Certificate of distinction several MooC Data Science Courses from Johns Hopkins University on Coursera\\
 \\
 \tabitem \textit{"Best outgoing achiever of 2012 batch”} from the Dept. of Computer Science \& Engg. at \mbox{M S Ramaiah Instiute of Technology} \\
 \\
-\tabitem First Place at the National Level Project Competition \& Exhibition held at M S Ramaiah Institute of Technology for the project “Spoken Language Identification using Machine Learning”\\
+\tabitem First Place at the National Level Project Competition \& Exhibition held at M S Ramaiah Institute of Technology for project “Spoken Language Identification using Machine Learning”\\
 \\
 \tabitem Second Place at “Random Hacks of Kindness \#2” hackathon (2010)\\
 \\
@@ -308,7 +337,7 @@
 %----------------------------------------------------------------------------------------
 
 \section{Co and extra curricular activities}
-~\\
+%~\\
 \tabitem Web Design, Development and treasurer for Samanway 2014 - Career fair at IISc \\
 \\ 
 \tabitem Member of the Environment committee at Goldman Sachs, regularly conducting awareness drives and camps \\
@@ -379,8 +408,8 @@
 Database Management Systems & A & 4\\
 Computer Architecture & A & 4\\
 Design and Analysis of Algorithms & C & 4\\
-Compiler Design & & 4\\
-Final Thesis & & \\	
+Compiler Design (NOT IN RTP) & - & -\\
+Final Thesis & In & Progress\\	
 & Total & 16\\\cline{2-3}
 &\textsc{Gpa}&\textbf{6.33}
 \end{tabular}
