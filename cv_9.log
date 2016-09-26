@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2016.2.26)  26 FEB 2016 19:36
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2016.2.26)  8 AUG 2016 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -872,142 +872,131 @@ Overfull \hbox (28.7307pt too wide) in paragraph at lines 97--127
 [1
 
 ]
-Overfull \hbox (3.87112pt too wide) in paragraph at lines 134--160
+Overfull \hbox (26.11234pt too wide) in paragraph at lines 134--162
 [][] 
  []
 
 
-Overfull \hbox (39.26175pt too wide) in paragraph at lines 193--304
+Overfull \hbox (67.81644pt too wide) in paragraph at lines 195--323
 [][]
  []
 
 
-Overfull \hbox (2.2891pt too wide) in paragraph at lines 193--304
-[]
+Overfull \hbox (25.27249pt too wide) in paragraph at lines 195--323
+[] 
  []
 
 [2]
-Overfull \vbox (9.24509pt too high) has occurred while \output is active []
+Overfull \vbox (93.24509pt too high) has occurred while \output is active []
 
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 311--334
+Overfull \vbox (90.8451pt too high) has occurred while \output is active []
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--334
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--334
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--334
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--334
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--334
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--334
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--334
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--334
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--334
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--334
-
- []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 341--360
+Underfull \hbox (badness 10000) in paragraph at lines 330--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--360
+Underfull \hbox (badness 10000) in paragraph at lines 330--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--360
+Underfull \hbox (badness 10000) in paragraph at lines 330--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--360
+Underfull \hbox (badness 10000) in paragraph at lines 330--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--360
+Underfull \hbox (badness 10000) in paragraph at lines 330--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--360
+Underfull \hbox (badness 10000) in paragraph at lines 330--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--360
+Underfull \hbox (badness 10000) in paragraph at lines 330--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--360
+Underfull \hbox (badness 10000) in paragraph at lines 330--349
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--360
+Underfull \hbox (badness 10000) in paragraph at lines 330--349
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--373
 
  []
 
 [5]
-Overfull \hbox (50.27249pt too wide) in paragraph at lines 368--395
+Overfull \hbox (50.27249pt too wide) in paragraph at lines 381--408
 [][] 
  []
 
 [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 467.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 481.
  [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 467.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 481.
  (./cv_9.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 467.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 467.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 467.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 481.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 481.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 481.
  ) 
 Here is how much of TeX's memory you used:
  21203 strings out of 495658
  390135 string characters out of 6187951
- 465529 words of memory out of 5000000
+ 470529 words of memory out of 5000000
  24196 multiletter control sequences out of 15000+600000
  4224 words of font info for 43 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191

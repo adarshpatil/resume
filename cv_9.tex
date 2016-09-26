@@ -48,7 +48,7 @@
 
 \begin{tabular}{rl}
 \textsc{Date of Birth:} & 17 November 1990 \\
-\textsc{Address / Contact:} & (On Request) \\
+\textsc{Address / Contact:} & Mobile: +91 9902926225 \\
 \textsc{Portfolio / Blog:} & \href{http://adarshpatil.in/timewarp}{http://adarshpatil.in}\\
 \textsc{email:} & \href{mailto:me@adarshpatil.in}{me at adarshpatil dot in}
 \end{tabular}
@@ -132,18 +132,19 @@
 
 \section{Software \& Hardware Proficiency}
 \begin{tabular}{rl}
-\textsc{Software} &  
-\tabitem \textit{Programming Languages:}\\
-& ~~~~Python, Linux Shell Scripting , C / C++, Java, SQL, Perl, Go PHP, Javascript \\
+\textsc{Software} & \tabitem \textit{Architectural Simulators:}\\
+& ~~~~gem5-gpu, gem5, DRAMSim, MARSSx86(QEMU based fast-functional simulator),\\
+& \tabitem \textit{Programming Languages:}\\
+& ~~~~C / C++, Python, Linux Shell Scripting, Java, SQL, Perl\\
 & \tabitem \textit{Development Platforms:} \\
-& ~~~~VI / VIM, Eclipse, Visual Studio, Code::Blocks, Net Beans, DevCpp, gedit,\\
+& ~~~~Eclipse, VI / VIM, Visual Studio, Code::Blocks, Net Beans, DevCpp, gedit,\\
 & ~~~~TexMaker, Aptana Studio, Geany\\	
 & \tabitem \textit{Web Technology:} \\
 & ~~~~HTML, CSS, JQuery, Javascript, PHP, JSP, Curl, XML, REST, WSDL, AngularJS,\\
 & ~~~~Perl / Python CGI\\
 & \tabitem \textit{Operating Systems:} VMware ESX, Linux(RHEL, Fedora, Ubuntu), Windows \\
 & \tabitem \textit{Mobile Platforms:} Android \\
-& \tabitem \textit{Libraries:} Open CV, OpenGL,  \\
+& \tabitem \textit{Libraries:} CUDA, OpenCL, OpenCV, OpenGL  \\
 & \tabitem \textit{Tools:} \LaTeX\ , git, svn, hg, gdb\\
 & \tabitem \textit{Automation Tool:} HP Operations Orchestrator, iConclude \\
 & \tabitem \textit{Database:} MySQL, Oracle, DB2 \\
@@ -151,10 +152,11 @@
 
 &\\
 
-\textsc{Hardware}  & \tabitem Micro-Architecture of Modern x86 processors\\
+\textsc{Hardware}  & \tabitem Hardware Accelerators \\
+& ~~~~Intel MIC (XeonPhi KNC) and NVIDIA GPGPUs (Fermi, Kepler) \\
+& \tabitem Micro-Architecture of Modern x86 CPUs\\
 & ~~~~(Nehalem / Westmere, SandyBridge / IvyBridge, Haswell) \\ 
-& \tabitem 8051 based Microcontroller Programming. \\
-& \tabitem x86 based Microprocessor Interfacing \\
+& \tabitem 8051 based Microcontroller Programming \\
 &\\
 \end{tabular}
 
@@ -191,35 +193,27 @@
 \section{Projects}
 
 \begin{tabular}{rl}
-\textsc{Projects at} & \textbf{Plan IKEBANA: ESS Dimensions Reduction for Plan Bouquet} \\
-\textsc{INDIAN INSTITUTE} & ~~~Ranking Error Prone Selectivity Dimensions by impact on Plan\\
-\textsc{OF SCIENCE}& ~~~Bouquet style query execution i.e. execution of query by discovering \\
-& ~~~selectivity at run time by executing series of cost limited plans.\\
-& ~~~\href{http://adar.sh/PlanIkebana}{http://adar.sh/PlanIkebana}\\
+\textsc{Projects at} & \textbf{Integrated Heterogeneous System Architecture with} \\
+\textsc{INDIAN INSTITUTE} & \textbf{shared Die-Stacked DRAM Cache [WORK IN PROGRESS]} \\
+\textsc{OF SCIENCE} & ~~~Modern Processor platforms have Heterogeneous systems, incorporating\\
+& ~~~Multi-core CPUs \& general purpose accelerator GPUs on the same die. They\\
+& ~~~are projected to be dominant computing platform for applications and will\\
+& ~~~require larger \& faster memory to improve overall system performance. Die-\\
+& ~~~Stacking technology allows to high bandwidth and larger capacity memory\\
+& ~~~to be integrated close to the processor. Using this memory as shared cache\\
+& ~~~brings novel challenges in resource sharing and request scheduling due to\\
+& ~~~the architectural heterogeneity which has varied implications on fairness \&\\
+& ~~~performance of the latency sensitive CPUs vs throughput oriented GPGPUs.\\
 & \\
-& \textbf{A Study of Branch Prediction in Android} \\
-& ~~~We focus on Hardware Branch Prediction and aim to understand\\
-& ~~~the interplay for User and Kernel mode branches in Android\\
-& ~~~in light of features like minimize \& background app refresh\\
-& ~~~Simulated ARM CortexA8 chipset with ARMv7-A architecture profile\\
-& ~~~\& ran Moby Mobile Benchmark suite on customized gem5 simulator\\
-& ~~~\href{http://adar.sh/BranchPredAndroid}{ http://adar.sh/BranchPredAndroid} \\
-&\\
-& \textbf{VarMutate:Dynamic Scoping for C Language in clang}\\
-& ~~~Implemented Dynamic Scoping for C in the clang/LLVM compiler\\
-& ~~~via a single pass algorithm that implements shallow binding.\\
-& ~~~It scans the AST generated and does a source-to-source transform\\
-& ~~~to convert a given program to dynamic scoped program.\\
-& ~~~\href{http://adar.sh/VarMutate}{http://adar.sh/VarMutate} \\
-& \\
-& \textbf{Compiler Optimization Transforms 1: Harris Corner Detection}\\
-& ~~~This work optimizes and tunes the Harris corner detection algorithm for \\
-& ~~~performance using locality, vectorization and multithreading transforms. \\
-& ~~~We obtain a speedup for 14.6X over OpenCV library implementation and \\
-& ~~~11.3X over unparallelized reference implementation.\\
-& ~~~This work also studies performance of GCC 4.9 vs Intel ICC 15.0\\
-& ~~~for vectorization and code generation optimization performed by them.\\
-& ~~~\href{http://adar.sh/compiler-optimize}{http://adar.sh/compiler-optimize}\\
+& \textbf{TLB and Pagewalk Performance in Multicore Architectures} \\
+& \textbf{with Large Die-Stacked DRAM Cache [TO BE PUBLISHED]}\\
+& ~~~The recently evolved die-stacked DRAM technology promises a high\\
+& ~~~bandwidth \& large capacity last-level cache, in the order of GBs, closer to \\
+& ~~~processors. With such large caches the amount of data that can be accessed \\
+& ~~~without causing a TLB fault i.e. the reach of a TLB, (which is a few MBs on \\
+& ~~~modern x86 processors) is severely inadequate. TLBs are on the critical path \\
+& ~~~for data accesses and incurring an expensive page walk can hinder system \\
+& ~~~performance, especially when data requested is already resident (hit) in the LLC.\\
 & \\
 & \textbf{Compiler Optimization Transforms 2: Caffe Neural Networks}\\
 & ~~~The work focuses on 2 applications in Caffe - MNIST and CIFAR10. \\
@@ -230,8 +224,39 @@
 & ~~~timing distribution on AMD and Intel multicores vs GPUs.\\
 & ~~~\href{http://adar.sh/caffe-compiler-optimize}{http://adar.sh/caffe-compiler-optimize}\\
 & \\
+& \textbf{Compiler Optimization Transforms 1: Harris Corner Detection}\\
+& ~~~This work optimizes and tunes the Harris corner detection algorithm for \\
+& ~~~performance using locality, vectorization and multithreading transforms. \\
+& ~~~We obtain a speedup for 14.6X over OpenCV library implementation and \\
+& ~~~11.3X over unparallelized reference implementation.\\
+& ~~~This work also studies performance of GCC 4.9 vs Intel ICC 15.0\\
+& ~~~for vectorization and code generation optimization performed by them.\\
+& ~~~\href{http://adar.sh/compiler-optimize}{http://adar.sh/compiler-optimize}\\
+& \\
+& \textbf{VarMutate:Dynamic Scoping for C Language in clang}\\
+& ~~~Implemented Dynamic Scoping for C in the clang/LLVM compiler\\
+& ~~~via a single pass algorithm that implements shallow binding.\\
+& ~~~It scans the AST generated and does a source-to-source transform\\
+& ~~~to convert a given program to dynamic scoped program.\\
+& ~~~\href{http://adar.sh/VarMutate}{http://adar.sh/VarMutate} \\
+& \\
+& \textbf{A Study of Branch Prediction in Android} \\
+& ~~~We focus on Hardware Branch Prediction and aim to understand\\
+& ~~~the interplay for User and Kernel mode branches in Android\\
+& ~~~in light of features like minimize \& background app refresh\\
+& ~~~Simulated ARM CortexA8 chipset with ARMv7-A architecture profile\\
+& ~~~\& ran Moby Mobile Benchmark suite on customized gem5 simulator\\
+& ~~~\href{http://adar.sh/BranchPredAndroid}{ http://adar.sh/BranchPredAndroid} \\
 &\\
-&\\
+& \textbf{Plan IKEBANA: ESS Dimensions Reduction for Plan Bouquet} \\
+& ~~~Ranking Error Prone Selectivity Dimensions by impact on Plan\\
+& ~~~Bouquet style query execution i.e. execution of query by discovering \\
+& ~~~selectivity at run time by executing series of cost limited plans.\\
+& ~~~\href{http://adar.sh/PlanIkebana}{http://adar.sh/PlanIkebana}\\
+& \\
+
+\end{tabular}
+\begin{tabular}{rl}
 \textsc{Projects at}  &  \textbf{Architect, design, implement and sustain solutions} of various  \\
 \textsc{GOLDMAN SACHS} &  Virtualization \& Linux technologies spanning Compute, Storage \\
 & and Networking. \\
@@ -245,16 +270,12 @@
 & \tabitem Performance analysis \& tuning for specialized internal apps \\
 & ~~~( e.g. Low Latency, high I/O, memory, network intensive )\\
 &\\
-
-\end{tabular}
-\begin{tabular}{rl}
-\textsc{Projects at} & \textbf{Linux Containers} \\
-\textsc{GOLDMAN SACHS} & \tabitem Architecting and implementing Image based and Host based App \\
-continued & ~~~~Containers for Goldman Sachs Cloud within RHEL 7 \\
+& \textbf{Linux Containers} \\
+& \tabitem Architecting and implementing Image based and Host based App \\
+& ~~~~Containers for Goldman Sachs Cloud within RHEL 7 \\
 & \tabitem Possess a good understanding of underlying technology \\
 & ~~~~Namespaces, Cgroups, SELinux, Libvirt API for Management, \\
 & ~~~~Network configuration using TUN/TAP Dev\\
-&\\
 &\\
 & \textbf{Thin client on desktop for VDI solution} \\
 & \tabitem Engineered a Linux based solution – Minimized and locked down \\
@@ -273,8 +294,6 @@ continued & ~~~~Containers for Goldman Sachs Cloud within RHEL 7 \\
 &\\
 &\\
 &\\
-\end{tabular}
-\begin{tabular}{rl}
 \textsc{Projects at} & \textit{“Spoken Language Identification using Machine Learning"}\\ 
 \textsc{MSRIT} & under Prof. K.G.Srinivasa as final year project\\
 & \href{http://adar.sh/spokenlang}{http://adar.sh/spokenlang}\\
@@ -308,6 +327,8 @@ continued & ~~~~Containers for Goldman Sachs Cloud within RHEL 7 \\
 
 \section{Achievements}
 %~\\
+\tabitem Ran a distance of 22 km in 2 hours [\textit{half marathon (21km) in 1 hour 55 mins}] representing IISc at 12 hour stadium relay run Bengaluru 2016\\
+\\
 \tabitem Completed with Certificate of distinction several MooC Data Science Courses from Johns Hopkins University on Coursera\\
 \\
 \tabitem \textit{"Best outgoing achiever of 2012 batch”} from the Dept. of Computer Science \& Engg. at \mbox{M S Ramaiah Instiute of Technology} \\
@@ -317,18 +338,12 @@ continued & ~~~~Containers for Goldman Sachs Cloud within RHEL 7 \\
 \tabitem Second Place at “Random Hacks of Kindness \#2” hackathon (2010)\\
 \\
 \tabitem IBM Certified DB2 9 Database and Application Fundamentals (2011)\\
-\\
 \tabitem IBM Certified Rational Functional Tester(RFT) for Java (2011)\\
-\\
 \tabitem Certificate course in “Java Programming” from NIIT-Bangalore by Sun Microsystems (2009)\\
 \\
-\tabitem Completed course on “Micro-Electro Mechanical Systems (MEMS)” from Electrical and Electronics Dept. of MSRIT \\
+\tabitem Field study titled “Microneedles for medical advancement” as a part of the MEMS course which was recognized by the Staff Council of IEEE MSRIT.\\
 \\
-\tabitem Seminal work titled “Microneedles for medical advancement” as a part of the MEMS course which was recognized by the Staff Council of IEEE.\\
-\\
-\tabitem Completed course on “Digital Signal Processing” from ECE Dept. of MSRIT \\
-\\
-\tabitem Completed course on “Supply Chain Management” from Mechanical Dept. of MSRIT
+\tabitem Credited broad course electives like “Micro-Electro Mechanical Systems (MEMS)”, \\“Digital Signal Processing” and “Supply Chain Management” at MSRIT \\
 \\
 %----------------------------------------------------------------------------------------
 
@@ -338,24 +353,22 @@ continued & ~~~~Containers for Goldman Sachs Cloud within RHEL 7 \\
 
 \section{Co and extra curricular activities}
 %~\\
+\tabitem Routinely participate in several competitive timed runs including TCS World 10k, Bengaluru 10k Challenge, Kaveri Trail Marathon, Bengaluru Marathon etc. \\ My personal best times are - \textit{5k(22mins), \space 10k(48mins) and half marathon (1:55hrs)} \\
+\\
+\tabitem Periodically author blog articles about my experiences, assessments and outlooks related to my work and hobbies \\
+\\
 \tabitem Web Design, Development and treasurer for Samanway 2014 - Career fair at IISc \\
 \\ 
 \tabitem Member of the Environment committee at Goldman Sachs, regularly conducting awareness drives and camps \\
 \\
 \tabitem One of few Indians amongst participants from all around the world on a Scholarship Delegation to attend TEDxSummit in Doha, Qatar representing TEDxMSRIT \\
 \\
-\tabitem Active TEDx licensee, TED Translator, 1600 TEDCred holder and organizer of TEDxMSRIT \\
+\tabitem TEDx licensee, TED Translator, 1600 TEDCred holder and organizer of TEDxMSRIT \\
+\tabitem Involved in various communities and organizing of “Pycon India 2010” and “Random Hacks of Kindness \#4” held in MSRIT\\
+%~\tabitem Lead organiser of “Ignite” (annual Tech Fest at MSRIT) and “Aavishkaar” (annual inter-collegiate IEEE-MSRIT tech fest\\\\
+\tabitem Active Volunteer for Association of Computer Engineers (ACE), IEEE-MSRIT and have been instrumental in organizing several fests and events (2008-2011)\\
 \\
-\tabitem Actively involved in various communities and organizing of “Pycon India 2010” and “Random Hacks of Kindness \#4” held in MSRIT\\
-\\
-\tabitem Lead organiser of “Ignite” (annual Tech Fest at MSRIT) and “Aavishkaar” (annual inter-collegiate IEEE-MSRIT tech fest\\
-\\
-\tabitem Active Volunteer for Association of Computer Engineers (ACE), MSRIT and have been instrumental in organizing events (2008-2011)\\
-\\
-\tabitem Delegated at various conferences and Workshops like \\
-“Open Hack India 2010/2011”, “PYCON India 2010”, “FOSSEE Science and Engineering”, \\ 
-“Microsoft Dream Spark India”, “Wikipedia monthly Meet-up Bangalore”, \\
-“Mobile Camp-Demos, Tech, Hands-on”\\
+\tabitem Delegated at various conferences and Workshops - IEEE International Parallel \& Distributed Processing Symposium (IPDPS 2015), Open Hack India 2010/2011, PYCON India 2010,\\ FOSSEE Science and Engineering, Microsoft Dream Spark India, Wikipedia Bangalore Meet-ups, Mobile Camps to name a few\\
 \\
 
 %----------------------------------------------------------------------------------------
@@ -372,8 +385,8 @@ continued & ~~~~Containers for Goldman Sachs Cloud within RHEL 7 \\
 & \tabitem Analytical and Mathematical Problem Solving, Designing Algorithms \\
 & ~~~~and practical Solutions to given problems \\
 & \\
-\textsc{Hobbies} & \tabitem Reading Major Tech News sites, dailies and magazines [LFY, Digit, Chip, etc.] \\
-& \tabitem Swimming \\
+\textsc{Hobbies} & \tabitem An avid Running, cycling and Swimming enthusiast\\
+& \tabitem Reading Major Tech News sites, dailies and magazines [LFY, Digit, Chip, etc.] \\
 & \tabitem Programming, Solving challenging problems either conceptually or programtically \\
 & \\
 \textsc{Other Links} & \href{https://github.com/adarshpatil}{github.com/adarshpatil} \\
@@ -408,8 +421,9 @@ continued & ~~~~Containers for Goldman Sachs Cloud within RHEL 7 \\
 Database Management Systems & A & 4\\
 Computer Architecture & A & 4\\
 Design and Analysis of Algorithms & C & 4\\
-Compiler Design (NOT IN RTP) & - & -\\
-Final Thesis & In & Progress\\	
+Compiler Design (NOT IN RTP) & B & -\\
+Final Thesis & In & Progress\\
+&&\\
 & Total & 16\\\cline{2-3}
 &\textsc{Gpa}&\textbf{6.33}
 \end{tabular}
