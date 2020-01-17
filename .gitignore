@@ -1,0 +1,16 @@
+# LaTex temp files
+*.aux
+*.log
+*.toc
+
+# PDF output
+*.pdf 
+
+# LaTex Beamer
+*.out
+*.nav
+*.snm
+*.vrb
+
+#SyncTex
+*.synctex.gz
