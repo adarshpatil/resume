@@ -48,7 +48,7 @@
 \section{Personal Details}
 
 \begin{tabular}{rl}
-\textsc{Portfolio / Blog:} & \href{http://adarshpatil.in/timewarp}{http://adarshpatil.in} \hspace{2cm} \textsc{Address:} Edinburgh, UK - EH8 9AB\\
+\textsc{Portfolio / Blog:} & \href{http://adarshpatil.in/timewarp}{http://adarshpatil.in} \hspace{2cm} \textsc{Address:} Edinburgh, UK\\
 \textsc{email:} & \href{mailto:me@adarshpatil.in}{me@adarshpatil.in}, \href{mailto:adarsh.patil@ed.ac.uk}{adarsh.patil@ed.ac.uk}, \href{mailto:adarsh@iisc.ac.in}{adarsh@iisc.ac.in}\\
 \end{tabular}
 
@@ -60,8 +60,8 @@
 
 \begin{tabular}{rl}
 \textsc{Current}  & \textsc{Doctor of Philosophy} \\
-& \textbf{University of Edinburgh}, United Kingdom \qquad \footnotesize{[ARM PhD Fellowship]} \\
-& Research: \small\emph{Co-designing for improved reliability and performance of the memory system} \\
+& \textbf{University of Edinburgh}, United Kingdom \qquad \small{[ARM PhD Fellowship]} \\
+& Research: \small\emph{Co-designing reliability and performance for datacenter memory} \\
 &\\
 
 
@@ -70,14 +70,16 @@
 \textsc{July} 2017 & \textsc{M.Tech. (Research)} \\
 & \textbf{Indian Institute Of Science}, Bangalore, India\\
 & Thesis: \small\emph{Heterogeneity Aware Shared DRAM Cache for Integrated Heterogeneous Architectures} \\
-&\normalsize \textsc{Gpa}: 6.33/8.0 - \small\emph{magna cum laude} \hyperlink{iisc}{\hfill | \footnotesize List of Courses}\\
+&\normalsize \textsc{Gpa}: 6.33/8.0 - \small\emph{magna cum laude}\\
+%&\normalsize \textsc{Gpa}: 6.33/8.0 - \small\emph{magna cum laude} \hyperlink{iisc}{\hfill | \footnotesize List of Courses}\\
 &\\
 
 %------------------------------------------------
 
 \textsc{May} 2012 & \textsc{Bachelor of Engineering}\\ 
 & \textbf{M S Ramaiah Institute of Technology}, Bangalore, India\\
-&\normalsize \textsc{Gpa}: 9.40/10.0 - \small\emph{summa cum laude} \hyperlink{msrit}{\hfill| \footnotesize List of Courses}\\
+%&\normalsize \textsc{Gpa}: 9.40/10.0 - \small\emph{summa cum laude} \hyperlink{msrit}{\hfill| \footnotesize List of Courses}\\
+&\normalsize \textsc{Gpa}: 9.40/10.0 - \small\emph{summa cum laude}\\
 &\\
 
 %------------------------------------------------
@@ -98,22 +100,22 @@
 %	WORK EXPERIENCE 
 %----------------------------------------------------------------------------------------
 
-\section{Work Experience}
+\section{Work Experience $\sim$ 4 years}
 
 \begin{tabular}{r|p{10cm}}
 Aug 2017 - Apr 2019 & Research Scientist at \textsc{Intel Corporation}, Bangalore, India \\
-& \footnotesize{HPC Ecosystem and Application Team}\\
+{\footnotesize(1 year 8 months)} & \footnotesize{HPC Ecosystem and Application Team} - projects under NDA *\\
 &\\
 %------------------------------------------------
 
 Jun 2012 - Jul 2014 & Technology Analyst at \textsc{Goldman Sachs}, Bangalore, India \\
-& \footnotesize{Core Platform Engineering}\\ 
+{\footnotesize (2 years 1 month)} & \footnotesize{Core Platform Engineering}\\ 
 & \\
 %------------------------------------------------
 
-Jan 2012 - May 2012 & Intern at \textsc{Ignis Technology Solutions}, Bangalore, India \\
-& \footnotesize{Android app developer}\\
-& \\
+%Jan 2012 - May 2012 & Intern at \textsc{Ignis Technology Solutions}, Bangalore, India \\
+%& \footnotesize{Android app developer}\\
+%& \\
 
 %------------------------------------------------
 
@@ -135,9 +137,11 @@ Jun 2010 - Sep 2010 & Intern at \textsc{Gavista Tech}, Bangalore, India\\
 
 \section{Publications}
 \begin{tabular}{p{3cm}p{11cm}}
-ARM / UoE Conference 2021 & Improving Reliability and Performance of Datacenter Systems via \newline Coherence \\	
+Under review * &  Fault-tolerant object-granular CXL disaggregated memory for accelerating FaaS \\
+& \\
+ARM Conf 2021 & Improving Reliability and Performance of Datacenter Systems via \newline Coherence \\	
 &\\
-UK Systems \newline Research 2021 & FaaS with Disaggregated Shared Memory \\
+UK Systems \newline Research 2021 & FaaS with CXL Disaggregated Shared Memory \\
 & \\
 ISCA 2021 & Dv\'e: Improving DRAM Reliability and Performance On-Demand via \newline Coherent Replication \hfill  \href{https://adar.sh/dve}{https://adar.sh/dve}\\
 &\\
@@ -152,6 +156,11 @@ TACO 2017 \newline \footnotesize{Best Poster EECS 2017} & HAShCache: Heterogenei
 \section{Projects}
 
 \begin{tabular}{rp{12cm}}
+\textsc{Ongoing Projects} & Redesigning co-ordination services (Kubernetes, Chubby) for next generation CXL based shared memory \\
+%& Next generation CXL based memory disaggregation brings performance and availability as a hardware primitive. This makes \\
+& \\
+& Achieving persistence through replicated disaggregated memory \\
+& \\
 \textsc{Projects at} & TLB and Pagewalk Performance in Multicore Architectures with large \\
 \textsc{INDIAN INSTITUTE} & Die-Stacked DRAM Cache \hfill [Tech Report 2015, arXiv]\\
 \textsc{OF SCIENCE} & ~~~\href{http://adar.sh/caffe-compiler-optimize}{http://adar.sh/caffe-compiler-optimize}\\
@@ -175,16 +184,16 @@ TACO 2017 \newline \footnotesize{Best Poster EECS 2017} & HAShCache: Heterogenei
 & Hardware and OS Performance Benchmarking \& Analysis\\
 & \tabitem Authored an automated benchmarking framework to run and \\
 & ~~~~ report performance by running test suites on VMs and Baremetals\\
-& \tabitem Test Suites include – SpecJBB, kmake, blacksholes, Dhrystone, \\
-& ~~~~Whetstone, Hackbench, Disk tests, Network uperf, lat proc \\
 & \tabitem Performance analysis \& tuning for specialized internal apps \\
 & ~~~( e.g. low Latency, high I/O, memory, network intensive )\\
+& \tabitem Test Suites – SpecJBB, kmake, blacksholes, Dhrystone, \\
+& ~~~~Whetstone, Hackbench, Disk tests, Network uperf, lat proc \\
+
 &\\
 & Linux Containers\\
 & \tabitem Architecting and implementing Containers for Goldman Sachs Cloud \\
 & \tabitem Possess a good understanding of underlying technology \\
-& ~~~~Namespaces, Cgroups, SELinux, Libvirt API for Management, \\
-& ~~~~Network configuration using TUN/TAP Dev\\
+& ~~~~Namespaces, Cgroups, SELinux, Network configuration, Libvirt API \\
 &\\
 & Thin client desktop VDI solution\\
 & \tabitem Engineered a Minimized and locked down Linux based solution \\
@@ -197,18 +206,17 @@ TACO 2017 \newline \footnotesize{Best Poster EECS 2017} & HAShCache: Heterogenei
 & \\
 & Vendor Interaction and liaising – Intel, VMware, Redhat \\
 &\\
-\textsc{Projects at} & Spoken Language Identification using Machine Learning\\ 
-\textsc{M S Ramaiah} & ~~~\href{http://adar.sh/spokenlang}{http://adar.sh/spokenlang} \qquad [Final Year undergrad Project] \\
+\textsc{Projects at} & Spoken language identification using machine learning \\ 
+\textsc{M S Ramaiah} & ~~~[Bachelor's dissertation] \qquad \href{http://adar.sh/spokenlang}{http://adar.sh/spokenlang} \\
 \textsc{Inst of Tech} & \\
 & SNIDS: An Intelligent \& Multiclass Support Vector Machines Based NIDS \\ 
-& ~~~\href{http://adar.sh/S-NIDS}{http://adar.sh/S-NIDS} \qquad [ICECIT 2012, funded by DRDO] \\
+& ~~~ [ICECIT 2012] \qquad \href{http://adar.sh/S-NIDS}{http://adar.sh/S-NIDS} \\
+& ~~~funded by Defense Research and Development Organization (DRDO), India \\
 & \\
-& Line Birds (game) using OpenGL \\
-& ~~~\href{http://adar.sh/linebird}{http://adar.sh/linebird}\\
-& \\
+& Line Birds (game) using OpenGL - \href{http://adar.sh/linebird}{http://adar.sh/linebird}\\
 & A parallel algorithm for Max Flow Algorithm using Ford-Fulkerson method \\
-& e-Blood Bank - a database Systems Application Project \\
-& Lead developer of a Linux Distro "ANDROMEDA - MSRIT Linux" \\
+& Lead developer of a student focused Linux Distro ``ANDROMEDA Linux" \\
+%& e-Blood Bank - a scalable database application\\
 \end{tabular}
 
 \iffalse
@@ -244,6 +252,33 @@ TACO 2017 \newline \footnotesize{Best Poster EECS 2017} & HAShCache: Heterogenei
 	&\\
 \end{tabular}
 \fi
+
+%----------------------------------------------------------------------------------------
+% Achievements
+%----------------------------------------------------------------------------------------
+
+\section{Achievements and awards}
+~\\
+\tabitem Founding trustee of Dr. M R Gorbal Foundation - a charitable organization which aims to promote research in Physics. \\
+~\\
+\tabitem Best Poster at Electrical Science Division Symposium (EECS 2017) at IISc, Bangalore \\
+\\
+\tabitem Completed with certificate of distinction several MooC Data Science Courses from Johns Hopkins University on Coursera\\
+\\
+\tabitem \textit{``Best outgoing achiever (2012)”} - Dept. of CSE at M S Ramaiah Instiute of Technology \\
+\\
+\tabitem First Place at National Level Project Competition held at M S Ramaiah Inst of Tech (2012)\\
+\\
+\tabitem Second Place at “Random Hacks of Kindness \#2” hackathon (2010)\\
+%\\
+%\tabitem IBM Certified DB2 9 Database and Application Fundamentals (2011)\\
+%\tabitem IBM Certified Rational Functional Tester(RFT) for Java (2011)\\
+%\tabitem Certificate course in “Java Programming” from NIIT-Bangalore by Sun Microsystems (2009)\\
+%\\
+%\tabitem Study titled ``Microneedles for medical advancement" (MEMS course project) - recognized by the Staff Council of IEEE MSRIT.\\
+%\tabitem Credited broad course electives like “Micro-Electro Mechanical Systems (MEMS)”, \\“Digital Signal Processing” and “Supply Chain Management” at MSRIT \\
+%----------------------------------------------------------------------------------------
+
 %----------------------------------------------------------------------------------------
 %	POSITIONS HELD
 %----------------------------------------------------------------------------------------
@@ -255,42 +290,19 @@ TACO 2017 \newline \footnotesize{Best Poster EECS 2017} & HAShCache: Heterogenei
 	&\\
 	\tabitem ICSA@Informatics social media communication & Sept 2021 - Current \\
 	& \\
+	\tabitem Teaching assistant/Tutor INF2C-CS, University of Edinburgh & Aug 2019 - Dec 2019 \\
+	& \\
 	\tabitem Student System Admin at CSA Department, IISc & Aug 2014 - Dec 2016 \\
 	&\\
 	\tabitem Teaching Associate for the CUDA Teaching Centre,  & Jan 2012 - May 2012\\
 	~~~~sponsored by NVIDIA, at the Department of CSE, MSRIT &  \\
 	&\\
 	\tabitem Chairman of VRGLINUG (GNU/Linux users group at MSRIT) & 2011-12 \\
-	&\\
-	\tabitem Secretary and member of executive committee of IEEE-MSRIT & 2011-12 \\
-	&\\
-	\tabitem Been an influential Member of several committees & 2011-12 \\
-	~~~~RoboMSR, CodeMSRIT, Assoc of Computer Engineers (ACE) & \\
-	&\\
+	~~~ Secretary and member of executive committee of IEEE-MSRIT &  \\
+	~~~ Influential Member of several committees & \\
+	~~~ {\footnotesize (RoboMSR, CodeMSRIT, Assoc. of Computer Engineers)} & \\
+	%	&\\
 \end{tabular}
-%----------------------------------------------------------------------------------------
-% Achievements
-%----------------------------------------------------------------------------------------
-
-\section{Achievements}
-~\\
-\tabitem Best Poster at Electrical Science Division Symposium (EECS '17) at IISc, Bangalore \\
-\\
-\tabitem Completed with Certificate of distinction several MooC Data Science Courses from Johns Hopkins University on Coursera\\
-\\
-\tabitem \textit{``Best outgoing achiever (2012)”} - Dept. of Computer Science \& Engg. at M S Ramaiah Instiute of Technology \\
-\\
-\tabitem First Place at the National Level Project Competition \& Exhibition held at M S Ramaiah Institute of Technology for project “Spoken Language Identification using Machine Learning”\\
-\\
-\tabitem Second Place at “Random Hacks of Kindness \#2” hackathon (2010)\\
-\\
-\tabitem IBM Certified DB2 9 Database and Application Fundamentals (2011)\\
-\tabitem IBM Certified Rational Functional Tester(RFT) for Java (2011)\\
-\tabitem Certificate course in “Java Programming” from NIIT-Bangalore by Sun Microsystems (2009)\\
-\\
-\tabitem Study titled ``Microneedles for medical advancement" (MEMS course project) - recognized by the Staff Council of IEEE MSRIT.\\
-\tabitem Credited broad course electives like “Micro-Electro Mechanical Systems (MEMS)”, \\“Digital Signal Processing” and “Supply Chain Management” at MSRIT \\
-%----------------------------------------------------------------------------------------
 
 %----------------------------------------------------------------------------------------
 %	Co and extra curricular activities
@@ -298,21 +310,21 @@ TACO 2017 \newline \footnotesize{Best Poster EECS 2017} & HAShCache: Heterogenei
 
 \section{Extra curricular activities}
 ~\\
-\tabitem Represented IISc in the 12 hour Bengaluru Stadium Run Relay for 2016 and 2018. \\ Long distance runs : 4 villages half-marathon, TCS World 10k, Bengaluru 10k Challenge, Standard Chartered Mumbai Marathon, Bengaluru Marathon etc. \\ {\footnotesize Personal best times - \textit{5k (19mins), \space 10k (45mins), half-marathon (1:50hrs)}, marathon (4:17hrs) }\\
+\tabitem Represented IISc in the 12 hour Bengaluru Stadium Run Relay for 2016 and 2018. \\ Long distance runs : 4 villages half-marathon (UK), TCS World 10k, Bengaluru 10k Challenge, Standard Chartered Mumbai Marathon, Bengaluru Marathon etc. \\ {\footnotesize Personal best times - \textit{5k (19mins), \space 10k (45mins), half-marathon (1:50hrs)}, marathon (4:17hrs) }\\
 \\
 \tabitem Periodically author blog articles about my experiences, assessments and outlooks related to my work and hobbies \\
 \\
-\tabitem Member of the Environment committee at Goldman Sachs, regularly conducting awareness drives and camps \\
+\tabitem Member of environment committee at Goldman Sachs for conducting awareness drives/camps \\
 \\
-\tabitem One of few Indians amongst participants from all around the world on a Scholarship Delegation to attend TEDxSummit 2012 in Doha, Qatar representing TEDxMSRIT \\
+\tabitem One of few Indians amongst participants from around the world on a Scholarship Delegation to attend TEDxSummit 2012 in Doha, Qatar \\
 \\
 \tabitem TEDx licensee, TED Translator, TEDx organizer (TEDxMSRIT 2012)\\
-\tabitem Web Design, Development and treasurer for Samanway 2014 - Career fair at IISc \\
-\tabitem Organizer of ``Pycon India 2010" and ``Random Hacks of Kindness \#4" held at MSRIT\\
+%\tabitem Web Design, Development and treasurer for Samanway 2014 - Career fair at IISc \\
+\tabitem Organizer of ``Pycon India 2010" and ``Random Hacks of Kindness \#4"\\
 %~\tabitem Lead organiser of “Ignite” (annual Tech Fest at MSRIT) and “Aavishkaar” (annual inter-collegiate IEEE-MSRIT tech fest\\\\
-\tabitem Active Volunteer for Association of Computer Engineers (ACE), IEEE-MSRIT and have been instrumental in organizing several fests and events (2008-2011)\\
-\tabitem Delegated at various conferences and Workshops - IEEE International Parallel \& Distributed Processing Symposium (IPDPS 2015), Open Hack India 2010/2011, PYCON India 2010,\\ FOSSEE Science and Engineering, Microsoft Dream Spark India, Wikipedia Bangalore Meet-ups, Mobile Camps\\
-\\
+%\tabitem Active Volunteer for Association of Computer Engineers (ACE), IEEE-MSRIT and have been instrumental in organizing several fests and events (2008-2011)\\
+\tabitem Delegated at various conferences/workshops - IEEE International Parallel \& Distributed Processing Symposium (IPDPS 2015), Open Hack India 2010/2011, PYCON India 2010,\\ FOSSEE Science and Engineering, Microsoft Dream Spark India, Wikipedia Bangalore Meet-ups\\
+%\\
 
 %----------------------------------------------------------------------------------------
 
@@ -336,7 +348,7 @@ TACO 2017 \newline \footnotesize{Best Poster EECS 2017} & HAShCache: Heterogenei
 &\\
 \textsc{References} & \textbf{Academic References} \\
 & Vijay Nagarajan, PhD Advisor \\
-& Assoc Prof, University of Edinburgh\\
+& Professor, University of Edinburgh\\
 & vijay.nagarajan@ed.ac.uk \\
 &\\
 & Prof. R Govindarajan, Master's Advisor \\
@@ -345,10 +357,16 @@ TACO 2017 \newline \footnotesize{Best Poster EECS 2017} & HAShCache: Heterogenei
 &\\
 
 & \textbf{Industry References} \\
-& On Request \\
+& Bharat Kaul \\
+& Director, Intel Parallel Computing Lab \\
 \end{tabular}
+
+\vfill
+
+\centerline{Created with Xe\LaTeX\ }
 %----------------------------------------------------------------------------------------
 
+\iffalse
 
 \newpage
 
@@ -405,6 +423,7 @@ Final Thesis &  & Completed \\
 
 \bigskip
 
+
 \par{\centering\Large \hypertarget{hs}{Higher Secondary (Sindhi High School, CBSE) }\par}
 \begin{center}
 \large{Primary Courses\par}
@@ -421,4 +440,5 @@ Hindi, English \\
 %----------------------------------------------------------------------------------------
 \vfill
 \centerline{Created with Xe\LaTeX\ }
+\fi
 \end{document}
