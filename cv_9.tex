@@ -1,4 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%May
 % Adarsh Patil CV
 % LaTeX Template
 % Version 1.0 (24/3/13)
@@ -11,6 +11,8 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{amssymb}
 
 \usepackage{fontspec} % For loading fonts
 \defaultfontfeatures{Mapping=tex-text}
@@ -52,6 +54,18 @@
 \textsc{email:} & \href{mailto:me@adarshpatil.in}{me@adarshpatil.in}, \href{mailto:adarsh.patil@ed.ac.uk}{adarsh.patil@ed.ac.uk}, \href{mailto:adarsh@iisc.ac.in}{adarsh@iisc.ac.in}\\
 \end{tabular}
 
+%	PERSONAL STATEMENT
+\section{Profile summary}
+I bring proven research experience at both target-oriented industry labs and blue-skies academic research.
+My research contributions and publications aim to holistically design next generation systems, specifically memory systems for various application domains and compute paradigms - HPC, AI, serverless.
+My ethos of application driven hardware research is reflected in all my works, each of which span several aspects of my proficiency
+
+I possess effective technical communication skills and have consistently proven my ability to meet deadlines and achieve project objectives. I work well in a team as well as independently. I am a constant learner, striving to expand my sphere of understanding. My education and industry experience has helped me develop technical capabilities in several adjacent areas within computer systems - operating systems, compilers, JIT libraries, network interconnect, analytical and mathematical modeling. 
+
+
+I am looking for research orientated industry roles in memory and systems architecture.
+
+
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
@@ -59,9 +73,9 @@
 \section{Education}
 
 \begin{tabular}{rl}
-\textsc{Current}  & \textsc{Doctor of Philosophy} \\
+\textsc{August 2023}  & \textsc{Doctor of Philosophy} \\
 & \textbf{University of Edinburgh}, United Kingdom \qquad \small{[ARM PhD Fellowship]} \\
-& Research: \small\emph{Co-designing reliability and performance for datacenter memory} \\
+& Thesis: \small\emph{Co-designing reliability and performance for datacenter memory} \\
 &\\
 
 
@@ -103,8 +117,12 @@
 \section{Work Experience $\sim$ 4 years}
 
 \begin{tabular}{r|p{10cm}}
+Apr 2023 - Current & Postdoctoral Research Associate at \textsc{University of Edinburgh}, UK \\
+& \footnotesize{Algorithms for next generation cloud systems}\\
+&\\
+%------------------------------------------------	
 Aug 2017 - Apr 2019 & Research Scientist at \textsc{Intel Corporation}, Bangalore, India \\
-{\footnotesize(1 year 8 months)} & \footnotesize{HPC Ecosystem and Application Team} - projects under NDA *\\
+{\footnotesize(1 year 8 months)} & \footnotesize{HPC Ecosystem and Applications Team}\\
 &\\
 %------------------------------------------------
 
@@ -120,13 +138,13 @@ Jun 2012 - Jul 2014 & Technology Analyst at \textsc{Goldman Sachs}, Bangalore, I
 %------------------------------------------------
 
 Jun 2011 - Aug 2011 & Summer Analyst at \textsc{Goldman Sachs}, Bangalore, India \\
-& \footnotesize{Runbook Process Automation}\\
-& \\
+& \footnotesize{Automation workflows for datacenter resource provisioning and error triage}\\
+%& \\
 
 %------------------------------------------------
 
-Jun 2010 - Sep 2010 & Intern at \textsc{Gavista Tech}, Bangalore, India\\
-& \footnotesize{Search Optimization and User Interface for systematic results display}\\
+%Jun 2010 - Sep 2010 & Intern at \textsc{Gavista Tech}, Bangalore, India\\
+%& \footnotesize{Search Optimization and User Interface for systematic results display}\\
 
 \end{tabular}
 
@@ -134,19 +152,18 @@ Jun 2010 - Sep 2010 & Intern at \textsc{Gavista Tech}, Bangalore, India\\
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS 
 %----------------------------------------------------------------------------------------
-\vspace{-0.1em}
-\section{Publications \& Talks}
+\section{Research publications \& Talks}
 \begin{tabular}{p{3cm}p{11cm}}
-DSN 2023 &  $\bar{A}$pta: Fault-tolerant object-granular CXL disaggregated memory for \newline accelerating FaaS \\
+DSN 2023 &  $\bar{A}$pta: Fault-tolerant object-granular CXL disaggregated memory for \newline accelerating FaaS \hfill \href{https://adar.sh/apta}{https://adar.sh/apta}\\
 & \\
 ISCA 2021 & Dv\'e: Improving DRAM Reliability and Performance On-Demand via \newline Coherent Replication \hfill  \href{https://adar.sh/dve}{https://adar.sh/dve}\\
 &\\
-TACO 2017 \newline \footnotesize{Best Poster EECS 2017, Presented HiPEAC 2018} & HAShCache: Heterogeneity-Aware Shared DRAMCache for Integrated Heterogeneous Systems  \hfill
+TACO 2017 \newline \footnotesize{Best Poster EECS 2017, Presented HiPEAC 2018} & HAShCache: Heterogeneity-Aware Shared DRAMCache for Integrated Heterogeneous CPU-GPU Systems  \hfill
 \href{https://adar.sh/hashcache-taco}{https://adar.sh/hashcache-taco}\\
 &\\
 ARM/UEd Conf 2021 \footnotesize{(Talk)} & Improving Reliability and Performance of Datacenter Systems via \newline Coherence \hfill  \href{https://adar.sh/arm-ed-conf-2021}{https://adar.sh/arm-ed-conf-2021}\\	
 &\\
-UK Systems 2021 \footnotesize{(Talk)} & FaaS with CXL Disaggregated Shared Memory \\
+UK Systems 2021 \footnotesize{(Talk)} & FaaS with CXL Disaggregated Shared Memory
 \end{tabular}
 %----------------------------------------------------------------------------------------
 %	PROJECTS 
@@ -155,67 +172,89 @@ UK Systems 2021 \footnotesize{(Talk)} & FaaS with CXL Disaggregated Shared Memor
 \section{Projects}
 
 \begin{tabular}{rp{12cm}}
-\textsc{Ongoing Projects} & Redesigning datacenter co-ordination services for next generation CXL based shared memory \\
-%& Next generation CXL based memory disaggregation brings performance and availability as a hardware primitive. This makes \\
-& \\
-& Achieving persistence through replicated disaggregated memory \\
-& \\
-\textsc{Projects at} & TLB and Pagewalk Performance in Multicore Architectures with large \\
-\textsc{INDIAN INSTITUTE} & Die-Stacked DRAM Cache \hfill [Tech Report 2015, arXiv]\\
-\textsc{OF SCIENCE} & ~~~\href{https://adar.sh/caffe-compiler-optimize}{https://adar.sh/caffe-compiler-optimize}\\
-& \\
-& A Study of Branch Prediction in Android \\
-& ~~~\href{https://adar.sh/BranchPredAndroid}{ https://adar.sh/BranchPredAndroid} \\
-& \\
-& Compiler Optimization Transforms\\
-& ~~~Harris Corner Detection: \href{https://adar.sh/compiler-optimize}{https://adar.sh/compiler-optimize}\\
-& ~~~Caffe Neural Networks:  \href{https://adar.sh/caffe-compiler-optimize}{https://adar.sh/caffe-compiler-optimize}\\
-& \\
-& VarMutate: Dynamic Scoping for C Language in clang\\
-& ~~~\href{https://adar.sh/VarMutate}{https://adar.sh/VarMutate} \\
-& \\
-& Plan IKEBANA: ESS Dimensions Reduction for Plan Bouquet \\
-& ~~~\href{https://adar.sh/PlanIkebana}{https://adar.sh/PlanIkebana}\\
-&\\
-\textsc{Projects at}  &  Architect, design and implement solutions of various virtualization \\
-\textsc{GOLDMAN SACHS} &   \& linux technologies spanning datacenter compute, storage, networking \\
-&\\
-& Hardware and OS Performance Benchmarking \& Analysis\\
-& \tabitem Authored an automated benchmarking framework to run and \\
-& ~~~~ report performance by running test suites on VMs and Baremetals\\
-& \tabitem Performance analysis \& tuning for specialized internal apps \\
-& ~~~( e.g. low Latency, high I/O, memory, network intensive )\\
-& \tabitem Test Suites – SpecJBB, kmake, blacksholes, Dhrystone, \\
-& ~~~~Whetstone, Hackbench, Disk tests, Network uperf, lat proc \\
+	\textsc{Ongoing } & Redesigning datacenter co-ordination services for next generation hardware \\
+	\textsc{projects} & \tabitem Novel hardware primitives for disaggregated memory \\
+	& \tabitem Employing new algorithms for synchronization and scheduling \\
+	%& \tabitem High-throughput and high-availability scheduling \\
+	%& Next generation CXL based memory disaggregation brings performance and availability as a hardware primitive. This makes \\
+	& \\
+	& Achieving persistence through replicated disaggregated memory \\
+	& \\
+\end{tabular}
 
-&\\
-& Linux Containers\\
-& \tabitem Architecting and implementing Containers for Goldman Sachs Cloud \\
-& \tabitem Possess a good understanding of underlying technology \\
-& ~~~~Namespaces, Cgroups, SELinux, Network configuration, Libvirt API \\
-&\\
-& Thin client desktop VDI solution\\
-& \tabitem Engineered a Minimized and locked down Linux based solution \\
-& \tabitem Authored several PyGTK and X11 based applications for remote \\
-& ~~~~management, diagnostics, troubleshooting and NEA \\
-& \tabitem Network booted, kickstart and preseed based unsupervised install \\
-& \tabitem Engineered a stateless RAM-based network booted system on\\ & ~~~~ARM based hardware\\
-&\\
-& Engineering Nested Virtualization (Bromium vSentry) as a security solution\\
-& \\
-& Vendor Interaction and liaising – Intel, VMware, Redhat \\
-&\\
-\textsc{Projects at} & Spoken language identification using machine learning \\ 
-\textsc{M S Ramaiah} & ~~~ [Bachelor's dissertation] \qquad \qquad \href{https://adar.sh/spokenlang}{https://adar.sh/spokenlang} \\
-\textsc{Inst of Tech} & \\
-& SNIDS: An Intelligent \& Multiclass Support Vector Machines Based NIDS \\ 
-& ~~~ [ICECIT 2012] \qquad \qquad \qquad \qquad \quad \href{https://adar.sh/S-NIDS}{https://adar.sh/S-NIDS} \\
-& ~~~ funded by Defense Research and Development Organization (DRDO), India \\
-& \\
-& Line Birds (game) using OpenGL\qquad \href{https://adar.sh/linebird}{https://adar.sh/linebird}\\
-& A parallel algorithm for Max Flow Algorithm using Ford-Fulkerson method \\
-& Lead developer of a student focused Linux Distro ``ANDROMEDA Linux" \\
-%& e-Blood Bank - a scalable database application\\
+
+\begin{tabular}{rp{12cm}}
+	\textsc{Projects at}  & Research into high-performance software, hardware, and systems for AI \\
+	\textsc{INTEL} &   \tabitem Optimized compute libraries for neural networks - libxsmm, MKL-DNN \\
+	& \tabitem Architecture specific parallel algorithms - register blocking, vectorization  \\
+	& \tabitem Datatypes for matrix representation - low-precision, sparsity \\
+	& \tabitem Hardware architecture design proposals with a deep understanding of underlying algorithms\\
+	&\\
+\end{tabular}
+
+\begin{tabular}{rp{12cm}}
+	\textsc{Projects at} &  Address translation overheads in next generation x86 processors\\
+	\textsc{INDIAN} &  \tabitem TLB and Pagewalk performance in multicore architectures with large\\
+	\textsc{INSTITUTE} &   Die-Stacked DRAM Cache \hfill [Tech Report 2015, arXiv] \\
+	\textsc{OF SCIENCE} & ~~~\href{https://adar.sh/caffe-compiler-optimize}{https://adar.sh/caffe-compiler-optimize}\\
+	& \\
+	& Program flow prediction in mobile devices \\
+	& \tabitem Accuracy of hardware branch predictor in ARM processors running Android \\
+	& ~~~\href{https://adar.sh/BranchPredAndroid}{ https://adar.sh/BranchPredAndroid} \\
+	& \\
+	& Compiler optimization transforms to improve performance on CPUs\\
+	& \tabitem Harris Corner Detection: \href{https://adar.sh/compiler-optimize}{https://adar.sh/compiler-optimize}\\
+	& \tabitem Caffe Neural Networks:  \href{https://adar.sh/caffe-compiler-optimize}{https://adar.sh/caffe-compiler-optimize}\\
+	& \\
+	& Dynamic Scoping for C Language in Clang compiler \href{https://adar.sh/VarMutate}{https://adar.sh/VarMutate} \\
+	& \\
+	& Database query optimization: Selectivity estimation of predicates in queries \\
+	& \tabitem ESS Dimensions Reduction for Plan Bouquet ~~~\href{https://adar.sh/PlanIkebana}{https://adar.sh/PlanIkebana}\\
+	&\\
+\end{tabular}
+
+\begin{tabular}{rp{12cm}}
+	\textsc{Projects at}  &  Architect, design and implement solutions of various virtualization \\
+	\textsc{GOLDMAN SACHS} &   \& linux technologies spanning datacenter compute, storage, networking \\
+	&\\
+	& Hardware and OS Performance Benchmarking \& Analysis\\
+	& \tabitem Authored an automated benchmarking framework to run and \\
+	& ~~~~ report performance by running test suites on VMs and Baremetals\\
+	& \tabitem Performance analysis \& tuning for specialized internal apps \\
+	& ~~~( e.g. low Latency, high I/O, memory, network intensive )\\
+	& \tabitem Test Suites – SpecJBB, kmake, blacksholes, Dhrystone, \\
+	& ~~~~Whetstone, Hackbench, Disk tests, Network uperf, lat proc \\
+	&\\
+	& Linux Containers\\
+	& \tabitem Architecting and implementing Containers for Goldman Sachs Cloud \\
+	& \tabitem Possess a good understanding of underlying technology \\
+	& ~~~~Namespaces, Cgroups, SELinux, Network configuration, Libvirt API \\
+	&\\
+	& Thin client desktop VDI solution\\
+	& \tabitem Engineered a Minimized and locked down Linux based solution \\
+	& \tabitem Authored several PyGTK and X11 based applications for remote \\
+	& ~~~~management, diagnostics, troubleshooting and NEA \\
+	& \tabitem Network booted, kickstart and preseed based unsupervised install \\
+	& \tabitem Engineered a stateless RAM-based network booted system on\\ & ~~~~ARM based hardware\\
+	&\\
+	& Engineering Nested Virtualization (Bromium vSentry) as a security solution\\
+	& \\
+	& Vendor Interaction and liaising – Intel, VMware, Redhat \\
+	&\\
+\end{tabular}
+
+\begin{tabular}{rp{12cm}}
+	\textsc{Projects at} & Spoken language identification using machine learning \\ 
+	\textsc{M S Ramaiah} & ~~~ [Bachelor's dissertation] \qquad \qquad \href{https://adar.sh/spokenlang}{https://adar.sh/spokenlang} \\
+	\textsc{Inst of Tech} & \\
+	& SNIDS: An Intelligent \& Multiclass Support Vector Machines Based NIDS \\ 
+	& ~~~ [ICECIT 2012] \qquad \qquad \qquad \qquad \quad \href{https://adar.sh/S-NIDS}{https://adar.sh/S-NIDS} \\
+	& ~~~ funded by Defense Research and Development Organization (DRDO), India \\
+	& \\
+	& Line Birds (game) using OpenGL\qquad \href{https://adar.sh/linebird}{https://adar.sh/linebird}\\
+	& A parallel algorithm for Max Flow Algorithm using Ford-Fulkerson method \\
+	& Lead developer of a student focused Linux Distro ``ANDROMEDA Linux" \\
+	%& e-Blood Bank - a scalable database application\\
 \end{tabular}
 
 \iffalse
@@ -307,6 +346,7 @@ UK Systems 2021 \footnotesize{(Talk)} & FaaS with CXL Disaggregated Shared Memor
 %	Co and extra curricular activities
 %----------------------------------------------------------------------------------------
 
+\iffalse
 \section{Extra curricular activities}
 ~\\
 \tabitem Represented IISc in the 12 hour Bengaluru Stadium Run Relay for 2016 and 2018. \\ Long distance runs : 4 villages half-marathon (UK), TCS World 10k, Bengaluru 10k Challenge, Standard Chartered Mumbai Marathon, Bengaluru Marathon etc. \\ {\footnotesize Personal best times - \textit{5k (19mins), \space 10k (45mins), half-marathon (1:50hrs)}, marathon (4:17hrs) }\\
@@ -324,6 +364,7 @@ UK Systems 2021 \footnotesize{(Talk)} & FaaS with CXL Disaggregated Shared Memor
 %\tabitem Active Volunteer for Association of Computer Engineers (ACE), IEEE-MSRIT and have been instrumental in organizing several fests and events (2008-2011)\\
 \tabitem Delegated at various conferences/workshops - ISCA 2022, IPDPS 2015, Open Hack India 2010/2011, PYCON India 2010, FOSSEE 2011, Microsoft DreamSpark 2012, Wikipedia Meetup/Bangalore\\
 %\\
+\fi
 
 %----------------------------------------------------------------------------------------
 
@@ -338,9 +379,11 @@ UK Systems 2021 \footnotesize{(Talk)} & FaaS with CXL Disaggregated Shared Memor
 & \tabitem Always updated with latest technology and trends of market.\\
 & \tabitem Analytical and mathematical problem solving ability \\
 & \\
-\textsc{Hobbies} & \tabitem Avid Runner, Cyclist and Swimmer\\
-& \tabitem Cardio/HiiT workouts - Les Mills Body Pump, Body Attack , GRIT Athletic\\
+\textsc{Hobbies} & \tabitem Avid endurance athlete: 2 full and 18 half marathons, stadium runs, 100K cycle\\
 & \tabitem Hiking enthusiast - 5 Munros, several Corbetts, coastal and trail walks\\
+%& \tabitem Cardio/HiiT workouts - Les Mills GRIT Athletic, Body Pump, Body Attack\\
+& \tabitem Blogging and research communication \\
+& \tabitem Organizer:  HPCA 2024, TEDx, Pycon India, Random Hacks of Kindness\\
 & \\
 \textsc{Other Links} & \href{https://github.com/adarshpatil}{github.com/adarshpatil} \\
 & \href{https://in.linkedin.com/in/adarshpatil}{in.linkedin.com/in/adarshpatil}\\
@@ -360,9 +403,24 @@ UK Systems 2021 \footnotesize{(Talk)} & FaaS with CXL Disaggregated Shared Memor
 & Director, Intel Parallel Computing Lab \\
 \end{tabular}
 
-\vfill
+\section{Keywords}
+\checkmark Academic research (PhD) \quad 
+\checkmark Industrial research experience \quad 
+\checkmark Memory architecture \quad
+\checkmark System design \quad 
+\checkmark Architectural modeling and simulation \quad
+\checkmark Reliability, availability and serviceability (RAS) \quad 
+\checkmark Coherence protocols \quad
+\checkmark CXL, OpenCAPI \quad
+\checkmark Disaggregated memory \quad
+\checkmark Serverless computing \quad
+\checkmark CPU, GPU, SoC architecture \quad
+\checkmark DRAM, HBM, HMC, DDR memory
 
-\centerline{Created with Xe\LaTeX\ }
+
+%\vfill
+
+%\centerline{Created with Xe\LaTeX\ }
 %----------------------------------------------------------------------------------------
 
 \iffalse
