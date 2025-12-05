@@ -50,13 +50,18 @@
 \section{Contact information}
 
 \begin{tabular}{rl}
-\textsc{Web:} & \href{https://adarshpatil.in/timewarp}{https://adarshpatil.in} \hspace{2cm} \textsc{Address:} Edinburgh, UK\\
-\textsc{email:} & \href{mailto:me@adarshpatil.in}{me@adarshpatil.in}, \href{mailto:adarsh.patil@ed.ac.uk}{adarsh.patil@ed.ac.uk}, \href{mailto:adarsh@iisc.ac.in}{adarsh@iisc.ac.in}\\
+\textsc{Web:} & \href{https://adarshpatil.in/timewarp}{https://adarshpatil.in} \hspace{2cm} \textsc{Address:} Cambridge, UK\\
+\textsc{email:} & \href{mailto:me@adarshpatil.in}{me@adarshpatil.in},
+\href{mailto:adarsh.patil@arm.com}{adarsh.patil@arm.com}, \href{mailto:adarsh.patil@ed.ac.uk}{adarsh.patil@ed.ac.uk}\\
 \end{tabular}
 
 %	PERSONAL STATEMENT
 \section{Profile summary}
-I bring proven research experience at both target-oriented industry labs and blue-skies academic research.
+\iffalse
+Staff Research Engineer at Arm with 10+ years working on the computer systems architecture; PhD (University of Edinburgh) and MSc (Research, IISc). I currently work on 5–10 year horizon research for memory \& interconnect architecture—CXL-class disaggregation, reliability/RAS, persistency—and shape scale-up/scale-out fabric strategy (UALink, Ultra/scale-up Ethernet, UCIe, co-packaged optics), delivering prototypes, artifacts and roadmap-ready proposals. Previously shipped megawatt-scale VM/container automation (Goldman Sachs) and performance-critical AI/HPC kernels (Intel); peer-recognized impact via publications (ISCA, DSN, ASPLOS workshop, TACO) and service (MICRO \& HPCA PCs, IEEE CAL reviewer, HPCA’24 Web Chair, SIGARCH editor).
+\fi
+
+I have pursued research at both target-oriented industry labs and blue-skies academic research.
 My research contributions and publications aim to holistically design next generation systems, specifically memory systems for various application domains and compute paradigms - HPC, AI, serverless.
 My ethos of application driven hardware research is reflected in all my works, each of which span several aspects of my proficiency
 
@@ -73,7 +78,7 @@ I possess effective technical communication skills and have consistently proven 
 
 \begin{tabular}{rl}
 \textsc{August 2023}  & \textsc{Doctor of Philosophy} \\
-& \textbf{University of Edinburgh}, United Kingdom \qquad \small{[ARM PhD Fellowship]} \\
+& \textbf{University of Edinburgh}, United Kingdom \qquad \small{[ARM Fellowship]} \\
 & Thesis: \small\emph{Co-designing reliability and performance for datacenter memory} \\
 & Advisor: Prof. Vijay Nagarajan \\
 &\\
@@ -92,7 +97,7 @@ I possess effective technical communication skills and have consistently proven 
 %------------------------------------------------
 
 \textsc{May} 2012 & \textsc{Bachelor of Engineering}\\ 
-& \textbf{Ramaiah Institute of Technology (RIT)}, Bangalore, India\\
+& \textbf{Ramaiah Institute of Technology (MSRIT)}, Bangalore, India\\
 %&\normalsize \textsc{Gpa}: 9.40/10.0 - \small\emph{summa cum laude} \hyperlink{msrit}{\hfill| \footnotesize List of Courses}\\
 &\normalsize \textsc{Gpa}: 9.40/10.0 - \small\emph{summa cum laude}\\
 &\\
@@ -117,22 +122,21 @@ I possess effective technical communication skills and have consistently proven 
 
 \section{Professional experience}
 
-\begin{tabular}{r|p{10cm}}
-Dec 2023 - Current & Senior Research Engineer at \textsc{Arm}, UK \\
-& \footnotesize{Systems architecture \& technology group}\\
-&\\
-Apr 2023 - Nov 2023 & Postdoctoral Research Associate at \textsc{University of Edinburgh}, UK \\
-{\footnotesize(8 months)} & \footnotesize{Algorithms for next generation cloud systems}\\
-&\\
+\begin{tabular}{r|p{6cm}l}
+Dec 2023 - Current & Staff Research Engineer (Oct '25)& \textsc{Arm}, Cambridge, UK\\
+& Senior Research Engineer& \\
+& \footnotesize{Systems architecture \& technology group} & \\
+& &\\
+Apr 2023 - Nov 2023 & Postdoctoral Research Associate & \textsc{University of Edinburgh}, UK \\
+{\footnotesize(8 months)} & \footnotesize{Algorithms for next generation cloud systems} & \\
+& & \\
 %------------------------------------------------	
-Aug 2017 - Apr 2019 & Research Scientist at \textsc{Intel Corporation}, Bangalore, India \\
-{\footnotesize(1 year 8 months)} & \footnotesize{HPC Ecosystem and Applications Team}\\
-&\\
+Aug 2017 - Apr 2019 & Research Scientist & \textsc{Intel}, Bangalore, India \\
+{\footnotesize(1 year 8 months)} & \footnotesize{HPC Ecosystem and Applications Team} &\\
+& & \\
 %------------------------------------------------
 
-Jun 2012 - Jul 2014 & Technology Analyst at \textsc{Goldman Sachs}, Bangalore, India \\
-{\footnotesize (2 years 1 month)} & \footnotesize{Core Platform Engineering}\\ 
-& \\
+Jun 2012 - Jul 2014 & Technology Analyst & \textsc{Goldman Sachs}, Bangalore, India \\
 %------------------------------------------------
 
 %Jan 2012 - May 2012 & Intern at \textsc{Ignis Technology Solutions}, Bangalore, India \\
@@ -141,8 +145,9 @@ Jun 2012 - Jul 2014 & Technology Analyst at \textsc{Goldman Sachs}, Bangalore, I
 
 %------------------------------------------------
 
-Jun 2011 - Aug 2011 & Summer Analyst at \textsc{Goldman Sachs}, Bangalore, India \\
-& \footnotesize{Automation workflows for datacenter resource provisioning and error triage}\\
+Jun 2011 - Aug 2011 & Summer Analyst &\\
+%& \footnotesize{Automation workflows for megawatt scale datacenter resource provisioning and error triage} \\
+{\footnotesize (2 years 4 months)} & \footnotesize{Core Platforms, Data Center Engineering}&\\ 
 %& \\
 
 %------------------------------------------------
@@ -156,15 +161,17 @@ Jun 2011 - Aug 2011 & Summer Analyst at \textsc{Goldman Sachs}, Bangalore, India
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS 
 %----------------------------------------------------------------------------------------
-\section{Referred research publications}
+\section{Selected research publications}
 \begin{tabular}{p{3cm}p{11cm}}
-HCDS @ ASPLOS 2024 &  UDON: A case for offloading to general purpose compute on CXL memory \hfill \href{https://adar.sh/apta}{https://adar.sh/apta}\\
+C3PO @ ICS '25 &  Improving compiler support for SIMD offload using Arm Streaming SVE \\
 & \\
-DSN 2023 &  $\bar{A}$pta: Fault-tolerant object-granular CXL disaggregated memory for \newline accelerating FaaS \hfill \href{https://adar.sh/apta}{https://adar.sh/apta}\\
+HCDS @ ASPLOS '24 &  UDON: Offloading to general purpose compute on CXL memory\\
 & \\
-ISCA 2021 & Dv\'e: Improving DRAM Reliability and Performance On-Demand via \newline Coherent Replication \hfill  \href{https://adar.sh/dve}{https://adar.sh/dve}\\
+DSN '23 &  $\bar{A}$pta: Fault-tolerant object-granular CXL disaggregated memory for \newline accelerating FaaS \hfill \href{https://adar.sh/apta}{https://adar.sh/apta}\\
+& \\
+ISCA '21 & Dv\'e: Improving DRAM Reliability and Performance On-Demand via \newline Coherent Replication \hfill  \href{https://adar.sh/dve}{https://adar.sh/dve}\\
 &\\
-TACO 2017 \newline \footnotesize{Best Poster EECS 2017, Presented HiPEAC 2018} & HAShCache: Heterogeneity-Aware Shared DRAMCache for Integrated Heterogeneous CPU-GPU Systems  \hfill
+TACO '17 \newline \footnotesize{Best Poster EECS 2017, Presented HiPEAC 2018} & HAShCache: Heterogeneity-Aware Shared DRAMCache for Integrated Heterogeneous CPU-GPU Systems  \hfill
 \href{https://adar.sh/hashcache-taco}{https://adar.sh/hashcache-taco}\\
 &\\
 Arm / UEd Conference 2021 & Improving Reliability and Performance of Datacenter Systems via \newline Coherence \hfill  \href{https://adar.sh/arm-ed-conf-2021}{https://adar.sh/arm-ed-conf-2021}\\	
@@ -185,7 +192,7 @@ UK Systems 2021 & FaaS with CXL Disaggregated Shared Memory
 	\textsc{Edinburgh}& \tabitem Employing new algorithms for synchronization and scheduling \\
 	%& \tabitem High-throughput and high-availability scheduling \\
 	%& Next generation CXL based memory disaggregation brings performance and availability as a hardware primitive. This makes \\
-	& \\
+	%& \\
 	& Achieving persistence through replicated disaggregated memory \\
 	& \\
 \end{tabular}
@@ -230,8 +237,8 @@ UK Systems 2021 & FaaS with CXL Disaggregated Shared Memory
 	& ~~~~ report performance by running test suites on VMs and Baremetals\\
 	& \tabitem Performance analysis \& tuning for specialized internal apps \\
 	& ~~~( e.g. low Latency, high I/O, memory, network intensive )\\
-	& \tabitem Test Suites – SpecJBB, kmake, blacksholes, Dhrystone, \\
-	& ~~~~Whetstone, Hackbench, Disk tests, Network uperf, lat proc \\
+	& \tabitem Validation using platform testing suites – SpecJBB, kmake, blacksholes, \\
+	& ~~~~Dhrystone, Whetstone, Hackbench, Disk tests, Network uperf, lat proc \\
 	&\\
 	& Linux Containers\\
 	& \tabitem Architecting and implementing Containers for Goldman Sachs Cloud \\
@@ -260,6 +267,7 @@ UK Systems 2021 & FaaS with CXL Disaggregated Shared Memory
 	& ~~~ funded by Defense Research and Development Organization (DRDO), India \\
 	& \\
 	& Line Birds (game) using OpenGL\qquad \href{https://adar.sh/linebird}{https://adar.sh/linebird}\\
+	& \\
 	& A parallel algorithm for Max Flow Algorithm using Ford-Fulkerson method \\
 	& Lead developer of a student focused Linux Distro ``ANDROMEDA Linux" \\
 	%& e-Blood Bank - a scalable database application\\
@@ -301,33 +309,13 @@ UK Systems 2021 & FaaS with CXL Disaggregated Shared Memory
 
 \vspace{0.05in}
 %----------------------------------------------------------------------------------------
-% Achievements
-%----------------------------------------------------------------------------------------
-
-\section{Achievements and awards}
-~\\
-\tabitem Founding trustee of Dr. M R Gorbal Foundation - a charitable organization which aims to promote research in Physics (2022) \\
-\tabitem Best Poster at Electrical Science Divisional Symposium at IISc (2017)\\
-\tabitem Certificate of distinction - Data Science Course, Johns Hopkins University on Coursera (2014)\\
-\tabitem \textit{Best outgoing achiever} - Dept. of CSE at RIT, (2012) \\
-\tabitem First Place at National Level Project Competition held at RIT (2012)\\
-\tabitem Second Place at “Random Hacks of Kindness \#2” hackathon (2010)\\
-%\\
-%\tabitem IBM Certified DB2 9 Database and Application Fundamentals (2011)\\
-%\tabitem IBM Certified Rational Functional Tester(RFT) for Java (2011)\\
-%\tabitem Certificate course in “Java Programming” from NIIT-Bangalore by Sun Microsystems (2009)\\
-%\\
-%\tabitem Study titled ``Microneedles for medical advancement" (MEMS course project) - recognized by the Staff Council of IEEE MSRIT.\\
-%\tabitem Credited broad course electives like “Micro-Electro Mechanical Systems (MEMS)”, \\“Digital Signal Processing” and “Supply Chain Management” at MSRIT \\
-%----------------------------------------------------------------------------------------
-
-%----------------------------------------------------------------------------------------
 %	POSITIONS HELD
 %----------------------------------------------------------------------------------------
 
 \section{Professional Activies}
 \hskip-0.4cm
 \begin{tabular}{l}
+	\tabitem IEEE Senior Member, December 2025\\
 	\tabitem ACM SIGARCH content editor, March 2024 - Present\\
 	\tabitem Web chair HPCA 2024 \\
     \tabitem Informatics Science Communication Group, Dec 2021 - Nov 2023 \\
@@ -340,6 +328,28 @@ UK Systems 2021 & FaaS with CXL Disaggregated Shared Memory
 	~~~ Influential Member of {\footnotesize RoboMSR, CodeMSRIT, Assoc. of Computer Engineers}, 2011-12 \\
 	%	&\\
 \end{tabular}
+
+\vspace{0.05in}
+%----------------------------------------------------------------------------------------
+% Achievements
+%----------------------------------------------------------------------------------------
+
+\section{Achievements and awards}
+~\\
+\tabitem Founding trustee of Dr. M R Gorbal Foundation - a charitable organization which aims to promote research in Physics (2022) \\
+\tabitem Best Poster at Electrical Science Divisional Symposium at IISc (2017)\\
+\tabitem Certificate of distinction - Data Science Course, Johns Hopkins University on Coursera (2014)\\
+\tabitem \textit{Best outgoing achiever} - Dept. of CSE at MSRIT, (2012) \\
+\tabitem First Place at National Level Project Competition held at RIT (2012)\\
+\tabitem Second Place at “Random Hacks of Kindness \#2” hackathon (2010)\\
+%\\
+%\tabitem IBM Certified DB2 9 Database and Application Fundamentals (2011)\\
+%\tabitem IBM Certified Rational Functional Tester(RFT) for Java (2011)\\
+%\tabitem Certificate course in “Java Programming” from NIIT-Bangalore by Sun Microsystems (2009)\\
+%\\
+%\tabitem Study titled ``Microneedles for medical advancement" (MEMS course project) - recognized by the Staff Council of IEEE MSRIT.\\
+%\tabitem Credited broad course electives like “Micro-Electro Mechanical Systems (MEMS)”, \\“Digital Signal Processing” and “Supply Chain Management” at MSRIT \\
+%----------------------------------------------------------------------------------------
 
 %----------------------------------------------------------------------------------------
 %	Co and extra curricular activities
@@ -378,8 +388,8 @@ UK Systems 2021 & FaaS with CXL Disaggregated Shared Memory
 & \tabitem Always updated with latest technology and trends of market.\\
 & \tabitem Analytical and mathematical problem solving ability \\
 & \\
-\textsc{Hobbies} & \tabitem Avid endurance athlete: 2 full and 18 half marathons, stadium runs, 100K cycle\\
-& \tabitem Hiking enthusiast - 5 Munros, several Corbetts, coastal and trail walks\\
+\textsc{Hobbies} & \tabitem Avid endurance athlete: 2 full and 18 half marathons, 1 HYROX event\\
+& \tabitem Hiking enthusiast - 25 Munros, several Corbetts, coastal and trail walks\\
 %& \tabitem Cardio/HiiT workouts - Les Mills GRIT Athletic, Body Pump, Body Attack\\
 & \tabitem Blogging and research communication \\
 & \tabitem Organizer:  HPCA 2024, TEDx, Pycon India, Random Hacks of Kindness\\
@@ -398,6 +408,9 @@ UK Systems 2021 & FaaS with CXL Disaggregated Shared Memory
 &\\
 
 & \textbf{Industry References} \\
+& Nikos Nikoleris \\
+& Senior Principal Engineer, Arm \\
+& \\
 & Bharat Kaul \\
 & Director, Intel Parallel Computing Lab \\
 \end{tabular}
